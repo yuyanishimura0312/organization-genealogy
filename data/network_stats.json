@@ -1,0 +1,135 @@
+{
+  "total_nodes": 18,
+  "total_edges": 13,
+  "by_relation_type": {
+    "knowledge_transfer": 4,
+    "mimetic_isomorphism": 5,
+    "competition": 1,
+    "succession": 2,
+    "schism": 1
+  },
+  "components": [
+    {
+      "size": 11,
+      "members": [
+        "オランダ東インド会社 (VOC)",
+        "ベネディクト会 (Order of Saint Benedict)",
+        "ハンザ同盟 (Hanseatic League)",
+        "MakerDAO",
+        "Mondragón Corporación Cooperativa (MCC)",
+        "Wikimedia Foundation",
+        "Cluny 修道会 (Order of Cluny)",
+        "シトー会 (Cistercian Order)",
+        "ボローニャ大学 (University of Bologna)",
+        "Linux Foundation",
+        "Grameen Bank"
+      ]
+    },
+    {
+      "size": 3,
+      "members": [
+        "三井越後屋 / 三井グループ",
+        "鴻池家",
+        "比叡山延暦寺 (Tendai School / Mount Hiei)"
+      ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "アシャンティ王国 (Asante Empire)"
+      ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "ムガル朝マンサブダール制 (Mansabdari System)"
+      ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "Hadza バンド (Hadzabe)"
+      ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "インカ帝国 (Tahuantinsuyu)"
+      ]
+    }
+  ],
+  "top_degree": [
+    {
+      "name": "ベネディクト会 (Order of Saint Benedict)",
+      "total": 3,
+      "in": 0,
+      "out": 3
+    },
+    {
+      "name": "Wikimedia Foundation",
+      "total": 3,
+      "in": 1,
+      "out": 2
+    },
+    {
+      "name": "シトー会 (Cistercian Order)",
+      "total": 3,
+      "in": 2,
+      "out": 1
+    },
+    {
+      "name": "オランダ東インド会社 (VOC)",
+      "total": 2,
+      "in": 1,
+      "out": 1
+    },
+    {
+      "name": "三井越後屋 / 三井グループ",
+      "total": 2,
+      "in": 1,
+      "out": 1
+    },
+    {
+      "name": "MakerDAO",
+      "total": 2,
+      "in": 2,
+      "out": 0
+    },
+    {
+      "name": "Mondragón Corporación Cooperativa (MCC)",
+      "total": 2,
+      "in": 1,
+      "out": 1
+    },
+    {
+      "name": "Cluny 修道会 (Order of Cluny)",
+      "total": 2,
+      "in": 1,
+      "out": 1
+    },
+    {
+      "name": "ボローニャ大学 (University of Bologna)",
+      "total": 2,
+      "in": 1,
+      "out": 1
+    },
+    {
+      "name": "ハンザ同盟 (Hanseatic League)",
+      "total": 1,
+      "in": 0,
+      "out": 1
+    }
+  ],
+  "era_distribution": {
+    "early_modern": 5,
+    "medieval": 7,
+    "contemporary": 3,
+    "extant": 1,
+    "postwar": 2
+  },
+  "status_distribution": {
+    "extinct": 5,
+    "active": 11,
+    "transformed": 2
+  }
+}
