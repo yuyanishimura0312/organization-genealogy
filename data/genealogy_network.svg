@@ -53,6 +53,9 @@ text { font-size: 11px; }
 <path d="M 1108.5811320754717 101.42857142857143 Q 1128.907547169811 112.85714285714286 1149.2339622641507 184.28571428571428" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
 <path d="M 178.49599999999998 184.28571428571428 Q 430.4876226415094 237.1428571428571 682.4792452830188 350.0" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
 <path d="M 281.096 267.14285714285717 Q 730.2215849056603 237.14285714285717 1179.3471698113206 267.14285714285717" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 400.796 101.42857142857143 Q 754.6885660377359 71.42857142857143 1108.5811320754717 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.35" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 528.9018867924528 101.42857142857143 Q 592.8924528301886 71.42857142857143 656.8830188679244 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 677.9622641509434 267.14285714285717 Q 603.4320754716981 154.2857142857143 528.9018867924528 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
 <defs>
 <marker id="arrow-succession" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
 <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e5a3f"/>
@@ -102,25 +105,25 @@ text { font-size: 11px; }
 <text class="node-label" x="305.378" y="172.78571428571428" text-anchor="middle">ハンザ同盟</text>
 <text class="node-date" x="305.378" y="203.78571428571428" text-anchor="middle">1159-1669</text>
 <line x1="400.796" y1="111.42857142857143" x2="530.4075471698113" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="400.796" cy="101.42857142857143" r="6.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="400.796" y="91.42857142857143" text-anchor="middle">インカ帝国</text>
-<text class="node-date" x="400.796" y="119.42857142857143" text-anchor="middle">1438-1572</text>
+<circle cx="400.796" cy="101.42857142857143" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="400.796" y="89.92857142857143" text-anchor="middle">インカ帝国</text>
+<text class="node-date" x="400.796" y="120.92857142857143" text-anchor="middle">1438-1572</text>
 <line x1="528.9018867924528" y1="111.42857142857143" x2="961.0264150943395" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="528.9018867924528" cy="101.42857142857143" r="6.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="528.9018867924528" y="91.42857142857143" text-anchor="middle">ムガル朝マンサブダール制</text>
-<text class="node-date" x="528.9018867924528" y="119.42857142857143" text-anchor="middle">1571-1858</text>
+<circle cx="528.9018867924528" cy="101.42857142857143" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="528.9018867924528" y="88.42857142857143" text-anchor="middle">ムガル朝マンサブダール制</text>
+<text class="node-date" x="528.9018867924528" y="122.42857142857143" text-anchor="middle">1571-1858</text>
 <line x1="575.577358490566" y1="194.28571428571428" x2="872.1924528301886" y2="194.28571428571428" stroke="#999" stroke-width="2" opacity="0.5"/>
 <circle cx="575.577358490566" cy="184.28571428571428" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
 <text class="node-label" x="575.577358490566" y="171.28571428571428" text-anchor="middle">オランダ東インド会社</text>
 <text class="node-date" x="575.577358490566" y="205.28571428571428" text-anchor="middle">1602-1799</text>
 <line x1="656.8830188679244" y1="111.42857142857143" x2="1022.7584905660377" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="656.8830188679244" cy="101.42857142857143" r="7.5" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
-<text class="node-label" x="656.8830188679244" y="89.92857142857143" text-anchor="middle">鴻池家</text>
-<text class="node-date" x="656.8830188679244" y="120.92857142857143" text-anchor="middle">1656-1899</text>
+<circle cx="656.8830188679244" cy="101.42857142857143" r="9.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
+<text class="node-label" x="656.8830188679244" y="88.42857142857143" text-anchor="middle">鴻池家</text>
+<text class="node-date" x="656.8830188679244" y="122.42857142857143" text-anchor="middle">1656-1899</text>
 <line x1="677.9622641509434" y1="277.14285714285717" x2="1110.0867924528302" y2="277.14285714285717" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="677.9622641509434" cy="267.14285714285717" r="6.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
-<text class="node-label" x="677.9622641509434" y="257.14285714285717" text-anchor="middle">アシャンティ王国</text>
-<text class="node-date" x="677.9622641509434" y="285.14285714285717" text-anchor="middle">1670-1957</text>
+<circle cx="677.9622641509434" cy="267.14285714285717" r="7.5" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
+<text class="node-label" x="677.9622641509434" y="255.64285714285717" text-anchor="middle">アシャンティ王国</text>
+<text class="node-date" x="677.9622641509434" y="286.64285714285717" text-anchor="middle">1670-1957</text>
 <line x1="682.4792452830188" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
 <circle cx="682.4792452830188" cy="350.0" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
@@ -128,9 +131,9 @@ text { font-size: 11px; }
 <text class="node-date" x="682.4792452830188" y="371.0" text-anchor="middle">1673-</text>
 <line x1="1108.5811320754717" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1108.5811320754717" cy="101.42857142857143" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1108.5811320754717" y="88.42857142857143" text-anchor="middle">Mondragón Cor…</text>
-<text class="node-date" x="1108.5811320754717" y="122.42857142857143" text-anchor="middle">1956-</text>
+<circle cx="1108.5811320754717" cy="101.42857142857143" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1108.5811320754717" y="86.92857142857143" text-anchor="middle">Mondragón Cor…</text>
+<text class="node-date" x="1108.5811320754717" y="123.92857142857143" text-anchor="middle">1956-</text>
 <line x1="1149.2339622641507" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="198.28571428571428" font-size="10" fill="#2e5a3f">▶</text>
 <circle cx="1149.2339622641507" cy="184.28571428571428" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
