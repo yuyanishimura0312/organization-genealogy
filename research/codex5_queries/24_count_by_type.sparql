@@ -1,0 +1,31 @@
+# Purpose: estimate row volume and field coverage for major organization root types before ETL.
+# Fields: root_type, root_typeLabel, item_count, creation_date P571 coverage, dissolution_date P576 coverage, country P17 coverage, located_in P276 coverage, parent_organization P749 coverage, instance_of P31 coverage, industry P452 coverage.
+# Expected result order: 1e1 rows on the public Wikidata endpoint.
+# License: Wikidata data is CC0.
+SELECT ?root_type ?root_typeLabel
+  (COUNT(DISTINCT ?item) AS ?item_count)
+  (COUNT(DISTINCT ?item_with_creation_date) AS ?creation_date_count)
+  (COUNT(DISTINCT ?item_with_dissolution_date) AS ?dissolution_date_count)
+  (COUNT(DISTINCT ?item_with_country) AS ?country_count)
+  (COUNT(DISTINCT ?item_with_located_in) AS ?located_in_count)
+  (COUNT(DISTINCT ?item_with_parent_organization) AS ?parent_organization_count)
+  (COUNT(DISTINCT ?item_with_instance_of) AS ?instance_of_count)
+  (COUNT(DISTINCT ?item_with_industry) AS ?industry_count)
+WHERE {
+  VALUES ?root_type {
+    wd:Q188509 wd:Q4830453 wd:Q783794 wd:Q161726 wd:Q43702 wd:Q41710
+    wd:Q11425700 wd:Q43229 wd:Q1530705 wd:Q2143665 wd:Q210980 wd:Q319608
+    wd:Q44613 wd:Q15243209 wd:Q4287745
+  }
+  ?item wdt:P31/wdt:P279* ?root_type.
+  OPTIONAL { ?item wdt:P571 ?creation_date. BIND(?item AS ?item_with_creation_date) }
+  OPTIONAL { ?item wdt:P576 ?dissolution_date. BIND(?item AS ?item_with_dissolution_date) }
+  OPTIONAL { ?item wdt:P17 ?country. BIND(?item AS ?item_with_country) }
+  OPTIONAL { ?item wdt:P276 ?located_in. BIND(?item AS ?item_with_located_in) }
+  OPTIONAL { ?item wdt:P749 ?parent_organization. BIND(?item AS ?item_with_parent_organization) }
+  OPTIONAL { ?item wdt:P31 ?instance_of. BIND(?item AS ?item_with_instance_of) }
+  OPTIONAL { ?item wdt:P452 ?industry. BIND(?item AS ?item_with_industry) }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ja". }
+}
+GROUP BY ?root_type ?root_typeLabel
+ORDER BY DESC(?item_count)

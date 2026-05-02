@@ -1,0 +1,22 @@
+# SQLite WAL/SHM (regenerable)
+data/*.db-wal
+data/*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local-only
+.env
+.env.local

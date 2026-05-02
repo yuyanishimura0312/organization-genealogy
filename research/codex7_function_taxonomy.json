@@ -1,0 +1,775 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "taxonomy_id": "codex7_function_taxonomy_v1",
+  "title": "Organizational Function Taxonomy",
+  "purpose": "Canonical function_type enumeration for the codex2 Function table.",
+  "design_note": "Miller's 20 critical subsystems and Beer's VSM S1-S5 are treated as the 25 master functions. VSR, Dynamic Capabilities, and March's exploration/exploitation are cross-cutting temporal axes, not additional functions.",
+  "schema": {
+    "type": "object",
+    "required": [
+      "function_id",
+      "name_ja",
+      "name_en",
+      "parent_id",
+      "definition",
+      "indicators",
+      "era_examples"
+    ],
+    "properties": {
+      "function_id": {
+        "type": "string",
+        "enum_ref": "function_type_enum"
+      },
+      "name_ja": {
+        "type": "string"
+      },
+      "name_en": {
+        "type": "string"
+      },
+      "parent_id": {
+        "type": "string"
+      },
+      "source_framework": {
+        "type": "string",
+        "enum": [
+          "miller_living_systems",
+          "beer_vsm"
+        ]
+      },
+      "miller_number": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1,
+        "maximum": 20
+      },
+      "vsm_number": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "S1",
+          "S2",
+          "S3",
+          "S3*",
+          "S4",
+          "S5",
+          null
+        ]
+      },
+      "definition": {
+        "type": "string"
+      },
+      "indicators": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 3
+      },
+      "era_examples": {
+        "type": "object",
+        "required": [
+          "ancient",
+          "medieval",
+          "modern",
+          "contemporary",
+          "digital"
+        ],
+        "properties": {
+          "ancient": {
+            "type": "string"
+          },
+          "medieval": {
+            "type": "string"
+          },
+          "modern": {
+            "type": "string"
+          },
+          "contemporary": {
+            "type": "string"
+          },
+          "digital": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "function_type_enum": [
+    "miller_01_reproducer",
+    "miller_02_boundary",
+    "miller_03_ingestor",
+    "miller_04_distributor",
+    "miller_05_converter",
+    "miller_06_producer",
+    "miller_07_matter_energy_storage",
+    "miller_08_extruder",
+    "miller_09_motor",
+    "miller_10_supporter",
+    "miller_11_input_transducer",
+    "miller_12_internal_transducer",
+    "miller_13_channel_and_net",
+    "miller_14_timer",
+    "miller_15_decoder",
+    "miller_16_associator",
+    "miller_17_memory",
+    "miller_18_decider",
+    "miller_19_encoder",
+    "miller_20_output_transducer",
+    "vsm_s1_operations",
+    "vsm_s2_coordination",
+    "vsm_s3_internal_control",
+    "vsm_s4_intelligence_strategy",
+    "vsm_s5_policy_identity"
+  ],
+  "parent_categories": [
+    {
+      "parent_id": "miller_both_matter_energy_information",
+      "name_ja": "物質・エネルギーと情報を処理する機能",
+      "name_en": "Matter-energy and information processing"
+    },
+    {
+      "parent_id": "miller_matter_energy",
+      "name_ja": "物質・エネルギー処理機能",
+      "name_en": "Matter-energy processing"
+    },
+    {
+      "parent_id": "miller_information",
+      "name_ja": "情報処理機能",
+      "name_en": "Information processing"
+    },
+    {
+      "parent_id": "beer_vsm_management",
+      "name_ja": "存続可能性の管理・メタ機能",
+      "name_en": "Viability management meta-functions"
+    }
+  ],
+  "functions": [
+    {
+      "function_id": "miller_01_reproducer",
+      "name_ja": "再生産",
+      "name_en": "Reproducer",
+      "parent_id": "miller_both_matter_energy_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 1,
+      "vsm_number": null,
+      "definition": "組織の憲章、型、構成単位、後継単位を複製し、同型または派生的な組織を生み出す機能。",
+      "indicators": [
+        "支部・子会社・修道院・加盟単位の設立記録",
+        "創設規約・フランチャイズ・継承手続き",
+        "人材育成や後継者任命の制度"
+      ],
+      "era_examples": {
+        "ancient": "神殿や官僚機構が地方拠点と祭祀職を複製する。",
+        "medieval": "修道会やギルドが支部、規約、徒弟制度を増殖させる。",
+        "modern": "会社、学校、政党が支店、系列校、地方組織を設ける。",
+        "contemporary": "多国籍企業や NGO が標準化された国別拠点を展開する。",
+        "digital": "OSS プロジェクトや DAO が fork、テンプレート、チャプター制度で複製される。"
+      }
+    },
+    {
+      "function_id": "miller_02_boundary",
+      "name_ja": "境界維持",
+      "name_en": "Boundary",
+      "parent_id": "miller_both_matter_energy_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 2,
+      "vsm_number": null,
+      "definition": "組織の内外を区分し、成員、資源、情報、権限の出入りを許可・遮断・条件付ける機能。",
+      "indicators": [
+        "加盟資格、入退会、任命、除名の規則",
+        "門、印章、制服、ドメイン、アクセス権限",
+        "秘密保持、検閲、境界警備、認証ログ"
+      ],
+      "era_examples": {
+        "ancient": "城壁、門番、氏族資格、祭祀への参加資格で内外を分ける。",
+        "medieval": "ギルド資格、都市壁、教会法上の所属が境界を作る。",
+        "modern": "国境、社員証、法人登記、会員名簿が境界を固定する。",
+        "contemporary": "コンプライアンス、入館証、契約、ブランド管理が境界を管理する。",
+        "digital": "アカウント、鍵、権限ロール、API rate limit が境界として働く。"
+      }
+    },
+    {
+      "function_id": "miller_03_ingestor",
+      "name_ja": "取り込み",
+      "name_en": "Ingestor",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 3,
+      "vsm_number": null,
+      "definition": "外部環境から人員、資金、物資、エネルギー、原材料を組織内へ取り入れる機能。",
+      "indicators": [
+        "徴税、寄進、採用、調達、仕入れの記録",
+        "原材料・資金・人員の流入量",
+        "募集経路、供給契約、調達先の多様性"
+      ],
+      "era_examples": {
+        "ancient": "租税、貢納、徴兵、灌漑用水を国家や神殿が取り込む。",
+        "medieval": "荘園年貢、徒弟募集、交易品、寄進が入る。",
+        "modern": "工場が労働者、石炭、資本、部品を調達する。",
+        "contemporary": "企業が人材、資金、サプライヤー、データを獲得する。",
+        "digital": "プラットフォームがユーザー、開発者、計算資源、データ入力を集める。"
+      }
+    },
+    {
+      "function_id": "miller_04_distributor",
+      "name_ja": "配分",
+      "name_en": "Distributor",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 4,
+      "vsm_number": null,
+      "definition": "取り込まれた資源を組織内の単位、工程、地域、役割へ移送・配分する機能。",
+      "indicators": [
+        "予算配分、配給、物流、内部振替の記録",
+        "倉庫から部門への移動量",
+        "配分基準、優先順位、ボトルネック"
+      ],
+      "era_examples": {
+        "ancient": "穀倉から役人、兵士、労働者へ穀物を配る。",
+        "medieval": "修道院や都市が食料、土地、作業を共同体内で割り当てる。",
+        "modern": "鉄道、郵便、企業内物流が拠点間配分を担う。",
+        "contemporary": "ERP、SCM、予算制度が資源を部門へ配る。",
+        "digital": "クラウドのオートスケーリングやタスクキューが計算資源を配分する。"
+      }
+    },
+    {
+      "function_id": "miller_05_converter",
+      "name_ja": "変換",
+      "name_en": "Converter",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 5,
+      "vsm_number": null,
+      "definition": "入力された資源の形態、品質、利用可能性を変え、組織が使える中間資源にする機能。",
+      "indicators": [
+        "精製、加工、教育、訓練、翻訳の工程",
+        "入力から中間成果物への歩留まり",
+        "技能変換や資源加工に要する時間"
+      ],
+      "era_examples": {
+        "ancient": "穀物を食糧、石材を建材、新兵を兵士に変える。",
+        "medieval": "徒弟教育、製粉、写本制作前の羊皮紙加工が行われる。",
+        "modern": "工場が原材料を部品へ、学校が学生を熟練労働者へ変える。",
+        "contemporary": "研修、データ整備、部品加工、資金の投資枠化が行われる。",
+        "digital": "ETL、モデル訓練、ユーザー入力の正規化が資源を利用可能にする。"
+      }
+    },
+    {
+      "function_id": "miller_06_producer",
+      "name_ja": "生産",
+      "name_en": "Producer",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 6,
+      "vsm_number": null,
+      "definition": "組織の目的に沿う財、サービス、制度的成果、公共財を作り出す機能。",
+      "indicators": [
+        "生産量、サービス件数、政策成果、出版物",
+        "工程能力、品質、納期、稼働率",
+        "成果物と受益者の対応"
+      ],
+      "era_examples": {
+        "ancient": "国家が治水、道路、裁判、軍事防衛を提供する。",
+        "medieval": "ギルドが製品を作り、修道院が教育・救済・写本を提供する。",
+        "modern": "企業が大量生産品、政府が行政サービスを提供する。",
+        "contemporary": "病院、大学、企業、NPO が専門サービスや製品を生む。",
+        "digital": "SaaS、検索、決済、オンライン教育、AI API が継続的に提供される。"
+      }
+    },
+    {
+      "function_id": "miller_07_matter_energy_storage",
+      "name_ja": "物質・エネルギー貯蔵",
+      "name_en": "Matter-Energy Storage",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 7,
+      "vsm_number": null,
+      "definition": "資源を将来利用できるよう蓄積、保管、在庫化、予備化する機能。",
+      "indicators": [
+        "倉庫、金庫、準備金、在庫、備蓄量",
+        "保管期間、劣化率、流動性",
+        "危機時に使える余剰能力"
+      ],
+      "era_examples": {
+        "ancient": "穀倉、宝物庫、兵器庫が飢饉や戦争に備える。",
+        "medieval": "都市倉庫、教会財産、ギルド基金が蓄積される。",
+        "modern": "銀行準備、石炭庫、在庫、国庫が資源を貯める。",
+        "contemporary": "現預金、戦略在庫、データセンター電源、予備人員を保持する。",
+        "digital": "クラウドストレージ、キャッシュ、暗号資産トレジャリー、GPU 予約枠を持つ。"
+      }
+    },
+    {
+      "function_id": "miller_08_extruder",
+      "name_ja": "排出",
+      "name_en": "Extruder",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 8,
+      "vsm_number": null,
+      "definition": "不要物、廃棄物、余剰、リスク、退職者、不適合資源を組織外へ出す機能。",
+      "indicators": [
+        "廃棄、売却、解雇、除名、清算の記録",
+        "排出量、処分費用、退職率",
+        "不良在庫や有害副産物の処理経路"
+      ],
+      "era_examples": {
+        "ancient": "都市が廃水、敗者、追放者、余剰品を外へ出す。",
+        "medieval": "ギルドが不良品や違反成員を排除する。",
+        "modern": "工場排水、廃棄物処理、余剰人員整理が制度化される。",
+        "contemporary": "リサイクル、退職制度、事業売却、コンプライアンス排除が行われる。",
+        "digital": "ログ削除、アカウント停止、spam 排除、非推奨 API の廃止を行う。"
+      }
+    },
+    {
+      "function_id": "miller_09_motor",
+      "name_ja": "移動・作動",
+      "name_en": "Motor",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 9,
+      "vsm_number": null,
+      "definition": "組織または構成要素を空間的・作業的に移動させ、行動を実行可能にする機能。",
+      "indicators": [
+        "輸送、派遣、行軍、出張、配置転換の記録",
+        "移動速度、到達範囲、稼働機械数",
+        "遠隔拠点への実行能力"
+      ],
+      "era_examples": {
+        "ancient": "軍隊、駅伝、船団、労役隊が組織の身体を動かす。",
+        "medieval": "巡回裁判、商隊、巡礼ネットワーク、騎士団の移動が機能する。",
+        "modern": "鉄道、蒸気船、配送網、営業部隊が実行範囲を広げる。",
+        "contemporary": "航空、物流、フィールドサービス、リモート運用部隊が動く。",
+        "digital": "デプロイパイプライン、コンテナ移動、ワークロード配置が実行の移動を担う。"
+      }
+    },
+    {
+      "function_id": "miller_10_supporter",
+      "name_ja": "支持・構造保持",
+      "name_en": "Supporter",
+      "parent_id": "miller_matter_energy",
+      "source_framework": "miller_living_systems",
+      "miller_number": 10,
+      "vsm_number": null,
+      "definition": "構成要素の位置関係、物理的基盤、制度的骨格を維持し、組織形態を支える機能。",
+      "indicators": [
+        "施設、法務、総務、IT 基盤、標準手続き",
+        "組織図、職務分掌、保守記録",
+        "基盤停止による業務影響"
+      ],
+      "era_examples": {
+        "ancient": "宮殿、役所、道路、身分秩序が組織の骨格になる。",
+        "medieval": "城、会館、教会法、職分秩序が共同体を支える。",
+        "modern": "官僚制、社屋、標準作業、法的人格が構造を保つ。",
+        "contemporary": "総務、法務、人事制度、IT インフラが活動を支える。",
+        "digital": "クラウド基盤、CI/CD、権限設計、リポジトリ構造が支持機能を持つ。"
+      }
+    },
+    {
+      "function_id": "miller_11_input_transducer",
+      "name_ja": "入力変換",
+      "name_en": "Input Transducer",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 11,
+      "vsm_number": null,
+      "definition": "外部環境からの情報信号を検知し、組織内で処理できる形に変換する機能。",
+      "indicators": [
+        "市場調査、苦情受付、偵察、監査、センサー",
+        "外部情報の収集頻度とカバレッジ",
+        "未検知リスクや機会の発生率"
+      ],
+      "era_examples": {
+        "ancient": "使者、斥候、徴税報告、占いが外部信号を取り込む。",
+        "medieval": "商人情報、巡察、司教訪問、都市評議会への訴えが使われる。",
+        "modern": "新聞、統計局、営業報告、外交公電が入力となる。",
+        "contemporary": "顧客調査、SNS 監視、センサー、競合分析が入力を作る。",
+        "digital": "イベントログ、webhook、API、telemetry、user feedback が入力変換を担う。"
+      }
+    },
+    {
+      "function_id": "miller_12_internal_transducer",
+      "name_ja": "内部状態変換",
+      "name_en": "Internal Transducer",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 12,
+      "vsm_number": null,
+      "definition": "組織内部の状態、活動、異常、成果を検知し、管理可能な情報へ変換する機能。",
+      "indicators": [
+        "会計、勤怠、品質検査、内部監査、KPI 計測",
+        "内部報告の遅延、欠測、改ざんリスク",
+        "現場状態と報告値の乖離"
+      ],
+      "era_examples": {
+        "ancient": "官吏が倉庫残高、兵数、収穫量を報告する。",
+        "medieval": "会計帳簿、巡察記録、修道院の規律点検が内部状態を記録する。",
+        "modern": "原価計算、タイムカード、品質統計が内部活動を数値化する。",
+        "contemporary": "ERP、BI、内部監査、OKR レビューが状態を可視化する。",
+        "digital": "observability、metrics、tracing、audit log が内部状態を信号化する。"
+      }
+    },
+    {
+      "function_id": "miller_13_channel_and_net",
+      "name_ja": "通信路・ネットワーク",
+      "name_en": "Channel and Net",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 13,
+      "vsm_number": null,
+      "definition": "情報を構成単位間で運ぶ通信路、会議体、文書経路、ネットワークを維持する機能。",
+      "indicators": [
+        "文書経路、会議体、通信網、メーリングリスト",
+        "情報到達時間、経路冗長性、通信障害",
+        "中心性、媒介者、孤立部門の有無"
+      ],
+      "era_examples": {
+        "ancient": "駅伝制、粘土板文書、勅令伝達網が情報を運ぶ。",
+        "medieval": "書簡、説教、商人ネットワーク、評議会が通信路になる。",
+        "modern": "郵便、電信、官報、社内文書がネットを形成する。",
+        "contemporary": "メール、会議、Slack、イントラネット、報告ラインが使われる。",
+        "digital": "message queue、pub/sub、protocol、repository、chatops が通信路になる。"
+      }
+    },
+    {
+      "function_id": "miller_14_timer",
+      "name_ja": "時間調整",
+      "name_en": "Timer",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 14,
+      "vsm_number": null,
+      "definition": "活動の順序、周期、期限、同期、リズムを生成し、時間的整合性を保つ機能。",
+      "indicators": [
+        "暦、締切、シフト、会計年度、リリース周期",
+        "遅延、同期失敗、季節性への適応",
+        "定例会、儀礼、レビュー cadence"
+      ],
+      "era_examples": {
+        "ancient": "農事暦、祭祀暦、徴税期、軍事動員期が組織時間を作る。",
+        "medieval": "教会暦、市日、徒弟年限、鐘の時刻が活動を同期する。",
+        "modern": "工場時計、鉄道時刻、会計年度、選挙周期が標準時間を作る。",
+        "contemporary": "四半期決算、スプリント、シフト表、SLA が時間を制御する。",
+        "digital": "cron、scheduler、release train、token epoch、timeout がタイマーになる。"
+      }
+    },
+    {
+      "function_id": "miller_15_decoder",
+      "name_ja": "解読",
+      "name_en": "Decoder",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 15,
+      "vsm_number": null,
+      "definition": "外部または内部から入った情報を、組織内で理解・処理できるコード、分類、意味へ変換する機能。",
+      "indicators": [
+        "翻訳、分類、法的解釈、データ正規化",
+        "誤解、分類不能、解釈遅延の頻度",
+        "専門職・分析者・通訳者の配置"
+      ],
+      "era_examples": {
+        "ancient": "書記が異言語文書、徴税単位、占兆を解釈する。",
+        "medieval": "聖職者や法学者が文書、慣習、典礼を解釈する。",
+        "modern": "統計分類、会計基準、法律部門、翻訳部門が解読する。",
+        "contemporary": "データアナリスト、法務、UX research が信号を意味へ変える。",
+        "digital": "parser、schema registry、NLP classifier、ETL mapping が解読を担う。"
+      }
+    },
+    {
+      "function_id": "miller_16_associator",
+      "name_ja": "関連付け・学習",
+      "name_en": "Associator",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 16,
+      "vsm_number": null,
+      "definition": "複数の情報項目を結び付け、パターン、因果仮説、経験則、学習を形成する機能。",
+      "indicators": [
+        "分析会議、研究、改善活動、仮説検証",
+        "失敗からの教訓化、相関発見、洞察の数",
+        "部門横断の知識結合"
+      ],
+      "era_examples": {
+        "ancient": "官僚や軍師が収穫、税、反乱、天候を関連付ける。",
+        "medieval": "商人や修道士が価格、信用、宗教実践を経験知にする。",
+        "modern": "研究所、統計分析、科学的管理法が情報を関連付ける。",
+        "contemporary": "戦略分析、A/B テスト、ポストモーテム、ナレッジ共有が行われる。",
+        "digital": "recommendation、graph analysis、ML feature learning、incident analysis が関連付ける。"
+      }
+    },
+    {
+      "function_id": "miller_17_memory",
+      "name_ja": "記憶",
+      "name_en": "Memory",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 17,
+      "vsm_number": null,
+      "definition": "情報、手続き、歴史、権利、関係、判断理由を保存し、必要時に検索・再利用する機能。",
+      "indicators": [
+        "文書館、帳簿、議事録、データベース、マニュアル",
+        "検索可能性、保存期間、改訂履歴",
+        "退職や災害による知識喪失リスク"
+      ],
+      "era_examples": {
+        "ancient": "粘土板、碑文、王名表、倉庫記録が組織記憶になる。",
+        "medieval": "写本、台帳、特許状、慣習法が記憶を担う。",
+        "modern": "公文書館、特許、会計帳簿、業務マニュアルが蓄積される。",
+        "contemporary": "DMS、CRM、wiki、データウェアハウスが組織記憶になる。",
+        "digital": "git history、blockchain ledger、object storage、vector store が記憶を担う。"
+      }
+    },
+    {
+      "function_id": "miller_18_decider",
+      "name_ja": "意思決定",
+      "name_en": "Decider",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 18,
+      "vsm_number": null,
+      "definition": "他の機能から情報を受け取り、選択、優先順位、命令、制御方針を決める中枢的機能。",
+      "indicators": [
+        "会議体、役職、投票、稟議、命令系統",
+        "決定速度、覆り率、権限分布",
+        "資源配分や行動変更を伴う決定記録"
+      ],
+      "era_examples": {
+        "ancient": "王、評議会、祭司団が命令と裁定を行う。",
+        "medieval": "領主、都市評議会、ギルド長老、教会会議が決める。",
+        "modern": "内閣、取締役会、官僚制、議会が意思決定する。",
+        "contemporary": "経営会議、プロダクト council、理事会、投資委員会が決める。",
+        "digital": "governance vote、maintainer decision、policy engine、automated controller が決定する。"
+      }
+    },
+    {
+      "function_id": "miller_19_encoder",
+      "name_ja": "符号化",
+      "name_en": "Encoder",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 19,
+      "vsm_number": null,
+      "definition": "内部判断や知識を、外部または他部門が解釈できる言語、文書、命令、規格、信号へ変換する機能。",
+      "indicators": [
+        "命令書、政策文書、契約、仕様書、広報文",
+        "メッセージの標準化、明確性、翻訳可能性",
+        "受信側の解釈誤りや実装齟齬"
+      ],
+      "era_examples": {
+        "ancient": "王令、印章、布告、儀礼が内部意思を外部記号にする。",
+        "medieval": "勅許状、説教、ギルド規約、紋章が符号化する。",
+        "modern": "法律、社内規程、広告、技術規格が判断を外部化する。",
+        "contemporary": "プレスリリース、API 仕様、契約、ブランドガイドが符号化する。",
+        "digital": "OpenAPI schema、commit message、machine-readable policy、smart contract が符号化する。"
+      }
+    },
+    {
+      "function_id": "miller_20_output_transducer",
+      "name_ja": "出力変換",
+      "name_en": "Output Transducer",
+      "parent_id": "miller_information",
+      "source_framework": "miller_living_systems",
+      "miller_number": 20,
+      "vsm_number": null,
+      "definition": "内部で符号化された情報を、環境中の媒体や相手に届く形へ物理的・技術的に出力する機能。",
+      "indicators": [
+        "出版、送信、発表、通知、API response",
+        "到達率、発信頻度、チャネル別反応",
+        "出力媒体の信頼性と検閲・遮断リスク"
+      ],
+      "era_examples": {
+        "ancient": "使者、石碑、貨幣銘、公開儀礼が情報を出す。",
+        "medieval": "説教、鐘、手紙、布告板が出力媒体になる。",
+        "modern": "新聞広告、官報、電信、電話、製品ラベルが使われる。",
+        "contemporary": "ウェブサイト、記者会見、メール、SNS、IR 資料が出力する。",
+        "digital": "API、webhook、notification、feed、on-chain event が出力変換を担う。"
+      }
+    },
+    {
+      "function_id": "vsm_s1_operations",
+      "name_ja": "現業・一次活動",
+      "name_en": "System 1 Operations",
+      "parent_id": "beer_vsm_management",
+      "source_framework": "beer_vsm",
+      "miller_number": null,
+      "vsm_number": "S1",
+      "definition": "環境と直接相互作用し、組織の主要価値を実行する自律的な現業単位の機能。",
+      "indicators": [
+        "事業部、現場部隊、支部、プロダクトチーム",
+        "顧客・住民・信徒・利用者との直接接点",
+        "現業単位ごとの P/L、成果、裁量範囲"
+      ],
+      "era_examples": {
+        "ancient": "属州行政、軍団、灌漑工区が現場で価値を実行する。",
+        "medieval": "修道院支院、ギルド工房、商館が一次活動を担う。",
+        "modern": "工場、営業所、学校、病院部門が現業単位になる。",
+        "contemporary": "事業部、地域拠点、プロダクトチーム、サービスラインが担う。",
+        "digital": "microservice team、DAO working group、marketplace operator が S1 になる。"
+      }
+    },
+    {
+      "function_id": "vsm_s2_coordination",
+      "name_ja": "調整・安定化",
+      "name_en": "System 2 Coordination",
+      "parent_id": "beer_vsm_management",
+      "source_framework": "beer_vsm",
+      "miller_number": null,
+      "vsm_number": "S2",
+      "definition": "複数の現業単位間の摩擦、振動、重複、衝突を抑え、運用を安定させる機能。",
+      "indicators": [
+        "標準手順、調整会議、共有カレンダー、共通規格",
+        "部門間衝突、二重作業、待ち時間の減少",
+        "インシデント調整、依存関係管理、エスカレーション"
+      ],
+      "era_examples": {
+        "ancient": "官僚間の職掌、暦、度量衡、軍令が活動を合わせる。",
+        "medieval": "市参事会、ギルド規約、市場日、教会暦が調整する。",
+        "modern": "標準化、鉄道時刻、官僚的手続き、工場管理が安定化する。",
+        "contemporary": "PMO、SRE、標準プロセス、横断会議が調整を担う。",
+        "digital": "issue tracker、service mesh policy、shared roadmap、protocol governance が調整する。"
+      }
+    },
+    {
+      "function_id": "vsm_s3_internal_control",
+      "name_ja": "内部統制・最適化",
+      "name_en": "System 3 Internal Control and Audit",
+      "parent_id": "beer_vsm_management",
+      "source_framework": "beer_vsm",
+      "miller_number": null,
+      "vsm_number": "S3",
+      "definition": "現業単位全体の資源配分、内部統制、短中期の最適化を行い、S3* 的な監査で報告の現実性を検証する機能。",
+      "indicators": [
+        "予算統制、業績管理、内部監査、現場視察",
+        "資源配分変更、全体最適施策、統制違反の検出",
+        "公式報告と監査結果の差分"
+      ],
+      "era_examples": {
+        "ancient": "中央官庁が属州報告を検査し、税・兵・労役を再配分する。",
+        "medieval": "領主や修道院長が会計監査と資源配分を行う。",
+        "modern": "本社管理部門、監査役、予算制度が内部最適化する。",
+        "contemporary": "COO、CFO、内部監査、リスク管理が統制を担う。",
+        "digital": "platform governance、quota management、security audit、FinOps が内部統制になる。"
+      }
+    },
+    {
+      "function_id": "vsm_s4_intelligence_strategy",
+      "name_ja": "環境知能・戦略",
+      "name_en": "System 4 Intelligence and Strategy",
+      "parent_id": "beer_vsm_management",
+      "source_framework": "beer_vsm",
+      "miller_number": null,
+      "vsm_number": "S4",
+      "definition": "外部環境と未来を探索し、長期適応、研究、戦略、変化への応答を設計する機能。",
+      "indicators": [
+        "戦略部門、研究開発、シナリオ分析、市場・制度モニタリング",
+        "新規事業、撤退、提携、技術探索の記録",
+        "外部変化の検知から意思決定までの時間"
+      ],
+      "era_examples": {
+        "ancient": "外交使節、占星・暦官、軍事偵察が将来環境を読む。",
+        "medieval": "商人ネットワーク、大学、宮廷顧問、外交書簡が外部知を集める。",
+        "modern": "参謀本部、研究所、統計局、企画部が戦略知を作る。",
+        "contemporary": "strategy office、R&D、competitive intelligence、policy team が担う。",
+        "digital": "trend mining、growth analytics、AI research、ecosystem monitoring が S4 になる。"
+      }
+    },
+    {
+      "function_id": "vsm_s5_policy_identity",
+      "name_ja": "方針・同一性",
+      "name_en": "System 5 Policy and Identity",
+      "parent_id": "beer_vsm_management",
+      "source_framework": "beer_vsm",
+      "miller_number": null,
+      "vsm_number": "S5",
+      "definition": "組織の目的、価値、正統性、許容リスク、同一性を定め、現在志向の S3 と未来志向の S4 の緊張を裁定する機能。",
+      "indicators": [
+        "憲章、使命、教義、理念、最高意思決定機関",
+        "価値に基づく拒否・撤退・優先順位の記録",
+        "正統性危機、アイデンティティ変更、創業原則の参照"
+      ],
+      "era_examples": {
+        "ancient": "王権理念、神話、法典、祭祀秩序が同一性を定める。",
+        "medieval": "修道規則、教義、都市憲章、ギルドの名誉が方針を支える。",
+        "modern": "憲法、社是、党綱領、法人目的が最高方針になる。",
+        "contemporary": "board、mission statement、ethics committee、brand purpose が同一性を裁定する。",
+        "digital": "protocol constitution、DAO charter、maintainer principles、community guidelines が S5 になる。"
+      }
+    }
+  ],
+  "cross_cutting_cycles": {
+    "vsr": {
+      "name": "Variation-Selection-Retention-Struggle",
+      "status": "temporal_axis_not_function_type",
+      "definition": "Aldrich's evolutionary frame is used to label events over time: variation generation, selection by internal or external pressures, retention through routines and institutions, and struggle over scarce resources or legitimacy.",
+      "event_labels": [
+        "variation",
+        "selection",
+        "retention",
+        "struggle"
+      ],
+      "mapping_hint": "Each event can reference one or more function_id values to show which function generated variation, applied selection, or retained a pattern."
+    },
+    "dynamic_capabilities": {
+      "name": "Sensing-Seizing-Transforming/Reconfiguring",
+      "status": "temporal_capability_cycle_not_function_type",
+      "definition": "Teece's dynamic capabilities are used as phases in adaptive episodes: sensing opportunities or threats, seizing them through commitments, and transforming or reconfiguring assets and routines.",
+      "event_labels": [
+        "sensing",
+        "seizing",
+        "transforming_reconfiguring"
+      ],
+      "mapping_hint": "Sensing often uses input_transducer, decoder, associator, and VSM S4; seizing uses decider, distributor, and S3; transforming changes S1-S3 structures and Miller support, memory, and producer functions."
+    },
+    "march_exploration_exploitation": {
+      "name": "Exploration-Exploitation",
+      "status": "orientation_axis_not_function_type",
+      "definition": "March's distinction is used as an orientation tag on activities or events: exploration for search, experimentation, variation, and discovery; exploitation for refinement, efficiency, execution, and reuse.",
+      "event_labels": [
+        "exploration",
+        "exploitation",
+        "ambidextrous"
+      ],
+      "mapping_hint": "The same function may be exploratory or exploitative depending on the episode; therefore it must not be encoded as a separate function_type."
+    }
+  },
+  "sources": [
+    {
+      "key": "miller_1978",
+      "citation": "Miller, James Grier. 1978. Living Systems. New York: McGraw-Hill.",
+      "used_for": "20 critical subsystems and living systems hierarchy."
+    },
+    {
+      "key": "miller_1990",
+      "citation": "Miller, James Grier. 1990. Introduction: The nature of living systems. Behavioral Science 35(3). DOI: 10.1002/bs.3830350301.",
+      "used_for": "Later statement of living systems theory."
+    },
+    {
+      "key": "beer_1972_1979_1985",
+      "citation": "Beer, Stafford. 1972. Brain of the Firm; 1979. The Heart of Enterprise; 1985. Diagnosing the System for Organizations.",
+      "used_for": "Viable System Model S1-S5."
+    },
+    {
+      "key": "aldrich_1999",
+      "citation": "Aldrich, Howard E. 1999. Organizations Evolving. Sage.",
+      "used_for": "VSR and struggle as evolutionary processes."
+    },
+    {
+      "key": "teece_1997_2007",
+      "citation": "Teece, David J., Gary Pisano, and Amy Shuen. 1997. Dynamic Capabilities and Strategic Management. Strategic Management Journal 18(7):509-533; Teece, David J. 2007. Explicating Dynamic Capabilities. Strategic Management Journal 28(13):1319-1350.",
+      "used_for": "Dynamic capabilities and sensing-seizing-transforming cycle."
+    },
+    {
+      "key": "march_1991",
+      "citation": "March, James G. 1991. Exploration and Exploitation in Organizational Learning. Organization Science 2(1):71-87.",
+      "used_for": "Exploration/exploitation orientation axis."
+    },
+    {
+      "key": "local_stream_a",
+      "citation": "research/A_theoretical_foundations.md and research/E_innovation_theory.md in this repository.",
+      "used_for": "Project-local synthesis and data model implications."
+    }
+  ]
+}

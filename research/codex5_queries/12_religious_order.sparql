@@ -1,0 +1,19 @@
+# Purpose: extract religious order (Q319608) instances and subclasses.
+# Fields: item, itemLabel, creation_date P571, dissolution_date P576, country P17, located_in P276, parent_organization P749, instance_of P31, industry P452.
+# Expected result order: 1e2-1e3 rows on the public Wikidata endpoint.
+# License: Wikidata data is CC0.
+SELECT DISTINCT ?item ?itemLabel ?creation_date ?dissolution_date ?country ?countryLabel ?located_in ?located_inLabel ?parent_organization ?parent_organizationLabel ?instance_of ?instance_ofLabel ?industry ?industryLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q319608.
+  OPTIONAL { ?item wdt:P571 ?creation_date. }
+  OPTIONAL { ?item wdt:P576 ?dissolution_date. }
+  OPTIONAL { ?item wdt:P17 ?country. }
+  OPTIONAL { ?item wdt:P276 ?located_in. }
+  OPTIONAL { ?item wdt:P749 ?parent_organization. }
+  OPTIONAL { ?item wdt:P31 ?instance_of. }
+  OPTIONAL { ?item wdt:P452 ?industry. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ja". }
+}
+ORDER BY ?item
+LIMIT 2000
+OFFSET 0
+
