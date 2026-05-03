@@ -7,8 +7,8 @@
       "relation": 46,
       "organization_form_assignment": 104,
       "function_record": 205,
-      "source": 108,
-      "claim": 859
+      "source": 204,
+      "claim": 1073
     },
     "notes": [
       "era is derived from organization_form taxonomy_name='historical_era'.",
@@ -950,18 +950,23 @@
       },
       {
         "redistribution": "attribution_required",
+        "source_type": "ethnography",
+        "count": 1
+      },
+      {
+        "redistribution": "attribution_required",
         "source_type": "primary_text",
-        "count": 5
+        "count": 8
       },
       {
         "redistribution": "attribution_required",
         "source_type": "secondary_literature",
-        "count": 54
+        "count": 116
       },
       {
         "redistribution": "attribution_required",
         "source_type": "web",
-        "count": 8
+        "count": 15
       },
       {
         "redistribution": "private",
@@ -981,7 +986,7 @@
       {
         "redistribution": "public_redistributable",
         "source_type": "primary_text",
-        "count": 9
+        "count": 12
       },
       {
         "redistribution": "public_redistributable",
@@ -991,7 +996,7 @@
       {
         "redistribution": "public_redistributable",
         "source_type": "web",
-        "count": 5
+        "count": 25
       },
       {
         "redistribution": "restricted",
@@ -1078,7 +1083,7 @@
       {
         "value_kind": "present",
         "entity_type": "organization_temporal_facet",
-        "count": 28
+        "count": 242
       },
       {
         "value_kind": "present",
@@ -1105,7 +1110,7 @@
       "function_record は function_type ごとに、対象組織の historical_era で集計した。"
     ],
     "source_redistribution_source_type": [
-      "最多セルは attribution_required × secondary_literature の 54 件。",
+      "最多セルは attribution_required × secondary_literature の 116 件。",
       "redistribution が NULL の source は 未設定 として集計した。"
     ],
     "claim_value_kind_entity_type": [
@@ -1117,7 +1122,7 @@
     "historical_era 未分類は 341/373 組織で、時代分類はまだ一部のケースに偏っている。",
     "longevity_years unknown は 248/373 組織で、寿命分析の主な制約になっている。",
     "relation_type は mimetic_isomorphism が最多で 20/46 関係を占める。",
-    "public_redistributable source は 19/108 件で、再配布可能な出典は少数派。",
-    "claim.value_kind は present が 741/859 件で中心的に使われている。"
+    "public_redistributable source は 42/204 件で、再配布可能な出典は少数派。",
+    "claim.value_kind は present が 955/1073 件で中心的に使われている。"
   ]
 }

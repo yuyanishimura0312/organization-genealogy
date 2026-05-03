@@ -2,7 +2,7 @@
 
 - generated_at: 2026-05-03
 - database: data/og.db
-- table_counts: {"claim": 859, "function_record": 205, "organization": 373, "organization_form_assignment": 104, "relation": 46, "source": 108}
+- table_counts: {"claim": 1073, "function_record": 205, "organization": 373, "organization_form_assignment": 104, "relation": 46, "source": 204}
 
 ## 1. era × status × longevity_years
 
@@ -218,19 +218,20 @@
 | redistribution | source_type | count |
 | --- | --- | --- |
 | attribution_required | dataset | 1 |
-| attribution_required | primary_text | 5 |
-| attribution_required | secondary_literature | 54 |
-| attribution_required | web | 8 |
+| attribution_required | ethnography | 1 |
+| attribution_required | primary_text | 8 |
+| attribution_required | secondary_literature | 116 |
+| attribution_required | web | 15 |
 | private | dataset | 1 |
 | public_redistributable | dataset | 2 |
 | public_redistributable | onchain | 1 |
-| public_redistributable | primary_text | 9 |
+| public_redistributable | primary_text | 12 |
 | public_redistributable | secondary_literature | 2 |
-| public_redistributable | web | 5 |
+| public_redistributable | web | 25 |
 | restricted | primary_text | 1 |
 | restricted | secondary_literature | 19 |
 
-- 最多セルは attribution_required × secondary_literature の 54 件。
+- 最多セルは attribution_required × secondary_literature の 116 件。
 - redistribution が NULL の source は 未設定 として集計した。
 
 ## 6. claim.value_kind × entity_type
@@ -251,7 +252,7 @@
 | present | impact_record | 2 |
 | present | organization | 684 |
 | present | organization_form_assignment | 14 |
-| present | organization_temporal_facet | 28 |
+| present | organization_temporal_facet | 242 |
 | present | relation | 7 |
 
 - 最多セルは present × organization の 684 件。
@@ -262,5 +263,5 @@
 1. historical_era 未分類は 341/373 組織で、時代分類はまだ一部のケースに偏っている。
 2. longevity_years unknown は 248/373 組織で、寿命分析の主な制約になっている。
 3. relation_type は mimetic_isomorphism が最多で 20/46 関係を占める。
-4. public_redistributable source は 19/108 件で、再配布可能な出典は少数派。
-5. claim.value_kind は present が 741/859 件で中心的に使われている。
+4. public_redistributable source は 42/204 件で、再配布可能な出典は少数派。
+5. claim.value_kind は present が 955/1073 件で中心的に使われている。
