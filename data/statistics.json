@@ -1,0 +1,1123 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-03",
+    "database": "data/og.db",
+    "table_counts": {
+      "organization": 373,
+      "relation": 46,
+      "organization_form_assignment": 104,
+      "function_record": 205,
+      "source": 108,
+      "claim": 859
+    },
+    "notes": [
+      "era is derived from organization_form taxonomy_name='historical_era'.",
+      "Organizations without historical_era assignment are grouped as 未分類.",
+      "longevity_years is bucketed from start_date/end_date; active organizations without end_date use the report year.",
+      "Non-active organizations without end_date and organizations without start_date are grouped as unknown longevity."
+    ]
+  },
+  "crosstabs": {
+    "era_status_longevity_years": [
+      {
+        "era": "DAO",
+        "status": "active",
+        "longevity_years": "0-9 years",
+        "count": 1
+      },
+      {
+        "era": "プラットフォーム",
+        "status": "active",
+        "longevity_years": "10-49 years",
+        "count": 3
+      },
+      {
+        "era": "プラットフォーム",
+        "status": "extinct",
+        "longevity_years": "10-49 years",
+        "count": 1
+      },
+      {
+        "era": "中世ギルド",
+        "status": "extinct",
+        "longevity_years": "50-99 years",
+        "count": 1
+      },
+      {
+        "era": "中世ギルド",
+        "status": "extinct",
+        "longevity_years": "500+ years",
+        "count": 1
+      },
+      {
+        "era": "中世ギルド",
+        "status": "extinct",
+        "longevity_years": "unknown",
+        "count": 1
+      },
+      {
+        "era": "修道院",
+        "status": "active",
+        "longevity_years": "500+ years",
+        "count": 5
+      },
+      {
+        "era": "修道院",
+        "status": "extinct",
+        "longevity_years": "500+ years",
+        "count": 1
+      },
+      {
+        "era": "修道院",
+        "status": "transformed",
+        "longevity_years": "unknown",
+        "count": 1
+      },
+      {
+        "era": "古代官僚制",
+        "status": "extinct",
+        "longevity_years": "100-499 years",
+        "count": 3
+      },
+      {
+        "era": "古代官僚制",
+        "status": "extinct",
+        "longevity_years": "unknown",
+        "count": 3
+      },
+      {
+        "era": "古代官僚制",
+        "status": "transformed",
+        "longevity_years": "100-499 years",
+        "count": 1
+      },
+      {
+        "era": "古代官僚制,神殿経済",
+        "status": "extinct",
+        "longevity_years": "unknown",
+        "count": 1
+      },
+      {
+        "era": "古代官僚制,近代官僚制",
+        "status": "extinct",
+        "longevity_years": "100-499 years",
+        "count": 1
+      },
+      {
+        "era": "多事業部制 (M-form),系列",
+        "status": "active",
+        "longevity_years": "50-99 years",
+        "count": 1
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "0-9 years",
+        "count": 2
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "10-49 years",
+        "count": 45
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "100-499 years",
+        "count": 11
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "50-99 years",
+        "count": 34
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "500+ years",
+        "count": 2
+      },
+      {
+        "era": "未分類",
+        "status": "active",
+        "longevity_years": "unknown",
+        "count": 14
+      },
+      {
+        "era": "未分類",
+        "status": "extinct",
+        "longevity_years": "0-9 years",
+        "count": 4
+      },
+      {
+        "era": "未分類",
+        "status": "extinct",
+        "longevity_years": "100-499 years",
+        "count": 1
+      },
+      {
+        "era": "未分類",
+        "status": "transformed",
+        "longevity_years": "100-499 years",
+        "count": 2
+      },
+      {
+        "era": "未分類",
+        "status": "unknown",
+        "longevity_years": "unknown",
+        "count": 226
+      },
+      {
+        "era": "氏族・部族,首長制",
+        "status": "active",
+        "longevity_years": "unknown",
+        "count": 1
+      },
+      {
+        "era": "特許貿易会社",
+        "status": "extinct",
+        "longevity_years": "100-499 years",
+        "count": 1
+      },
+      {
+        "era": "狩猟採集バンド",
+        "status": "active",
+        "longevity_years": "unknown",
+        "count": 1
+      },
+      {
+        "era": "産業企業 (U-form)",
+        "status": "active",
+        "longevity_years": "50-99 years",
+        "count": 1
+      },
+      {
+        "era": "系列,財閥",
+        "status": "active",
+        "longevity_years": "100-499 years",
+        "count": 1
+      },
+      {
+        "era": "近代官僚制",
+        "status": "active",
+        "longevity_years": "50-99 years",
+        "count": 2
+      }
+    ],
+    "era_relation_type": [
+      {
+        "era": "プラットフォーム",
+        "relation_type": "mimetic_isomorphism",
+        "count": 1
+      },
+      {
+        "era": "プラットフォーム",
+        "relation_type": "subsidiary",
+        "count": 1
+      },
+      {
+        "era": "中世ギルド",
+        "relation_type": "knowledge_transfer",
+        "count": 2
+      },
+      {
+        "era": "中世ギルド",
+        "relation_type": "mimetic_isomorphism",
+        "count": 2
+      },
+      {
+        "era": "修道院",
+        "relation_type": "knowledge_transfer",
+        "count": 2
+      },
+      {
+        "era": "修道院",
+        "relation_type": "mimetic_isomorphism",
+        "count": 4
+      },
+      {
+        "era": "修道院",
+        "relation_type": "normative_pressure",
+        "count": 2
+      },
+      {
+        "era": "修道院",
+        "relation_type": "schism",
+        "count": 1
+      },
+      {
+        "era": "修道院",
+        "relation_type": "succession",
+        "count": 2
+      },
+      {
+        "era": "古代官僚制",
+        "relation_type": "knowledge_transfer",
+        "count": 5
+      },
+      {
+        "era": "古代官僚制",
+        "relation_type": "mimetic_isomorphism",
+        "count": 4
+      },
+      {
+        "era": "古代官僚制,神殿経済",
+        "relation_type": "mimetic_isomorphism",
+        "count": 1
+      },
+      {
+        "era": "古代官僚制,近代官僚制",
+        "relation_type": "knowledge_transfer",
+        "count": 1
+      },
+      {
+        "era": "古代官僚制,近代官僚制",
+        "relation_type": "supply_chain",
+        "count": 1
+      },
+      {
+        "era": "未分類",
+        "relation_type": "knowledge_transfer",
+        "count": 4
+      },
+      {
+        "era": "未分類",
+        "relation_type": "mimetic_isomorphism",
+        "count": 6
+      },
+      {
+        "era": "氏族・部族,首長制",
+        "relation_type": "normative_pressure",
+        "count": 1
+      },
+      {
+        "era": "特許貿易会社",
+        "relation_type": "mimetic_isomorphism",
+        "count": 1
+      },
+      {
+        "era": "産業企業 (U-form)",
+        "relation_type": "mimetic_isomorphism",
+        "count": 1
+      },
+      {
+        "era": "系列,財閥",
+        "relation_type": "competition",
+        "count": 1
+      },
+      {
+        "era": "系列,財閥",
+        "relation_type": "knowledge_transfer",
+        "count": 1
+      },
+      {
+        "era": "近代官僚制",
+        "relation_type": "knowledge_transfer",
+        "count": 1
+      },
+      {
+        "era": "近代官僚制",
+        "relation_type": "normative_pressure",
+        "count": 1
+      }
+    ],
+    "form_taxonomy_organization": [
+      {
+        "form_taxonomy": "historical_era",
+        "organization_count": 32,
+        "assignment_count": 37
+      },
+      {
+        "form_taxonomy": "legal_form",
+        "organization_count": 23,
+        "assignment_count": 23
+      },
+      {
+        "form_taxonomy": "mintzberg_1989",
+        "organization_count": 22,
+        "assignment_count": 24
+      },
+      {
+        "form_taxonomy": "east_asian",
+        "organization_count": 7,
+        "assignment_count": 11
+      },
+      {
+        "form_taxonomy": "laloux_2014",
+        "organization_count": 7,
+        "assignment_count": 7
+      },
+      {
+        "form_taxonomy": "hannan_freeman",
+        "organization_count": 2,
+        "assignment_count": 2
+      }
+    ],
+    "function_type_era": [
+      {
+        "function_type": "Boundary",
+        "era": "DAO",
+        "count": 1
+      },
+      {
+        "function_type": "Boundary",
+        "era": "プラットフォーム",
+        "count": 4
+      },
+      {
+        "function_type": "Boundary",
+        "era": "中世ギルド",
+        "count": 3
+      },
+      {
+        "function_type": "Boundary",
+        "era": "修道院",
+        "count": 3
+      },
+      {
+        "function_type": "Boundary",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "Boundary",
+        "era": "未分類",
+        "count": 7
+      },
+      {
+        "function_type": "Boundary",
+        "era": "氏族・部族,首長制",
+        "count": 1
+      },
+      {
+        "function_type": "Boundary",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "Boundary",
+        "era": "狩猟採集バンド",
+        "count": 1
+      },
+      {
+        "function_type": "Boundary",
+        "era": "系列,財閥",
+        "count": 1
+      },
+      {
+        "function_type": "Boundary",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Channel and Net",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Channel and Net",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Channel and Net",
+        "era": "修道院",
+        "count": 1
+      },
+      {
+        "function_type": "Channel and Net",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Channel and Net",
+        "era": "未分類",
+        "count": 1
+      },
+      {
+        "function_type": "Converter",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "DAO",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "プラットフォーム",
+        "count": 3
+      },
+      {
+        "function_type": "Decider",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "修道院",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "古代官僚制",
+        "count": 4
+      },
+      {
+        "function_type": "Decider",
+        "era": "古代官僚制,近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "未分類",
+        "count": 2
+      },
+      {
+        "function_type": "Decider",
+        "era": "氏族・部族,首長制",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "狩猟採集バンド",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "産業企業 (U-form)",
+        "count": 1
+      },
+      {
+        "function_type": "Decider",
+        "era": "近代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "Decoder",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Decoder",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Decoder",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "Decoder",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "修道院",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "古代官僚制,近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "狩猟採集バンド",
+        "count": 1
+      },
+      {
+        "function_type": "Distributor",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Encoder",
+        "era": "プラットフォーム",
+        "count": 3
+      },
+      {
+        "function_type": "Encoder",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "Encoder",
+        "era": "未分類",
+        "count": 2
+      },
+      {
+        "function_type": "Encoder",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "修道院",
+        "count": 2
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "古代官僚制",
+        "count": 6
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "古代官僚制,近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "未分類",
+        "count": 6
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "Ingestor",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Input Transducer",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Input Transducer",
+        "era": "未分類",
+        "count": 1
+      },
+      {
+        "function_type": "Internal Transducer",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "Internal Transducer",
+        "era": "産業企業 (U-form)",
+        "count": 1
+      },
+      {
+        "function_type": "Matter-Energy Storage",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Matter-Energy Storage",
+        "era": "修道院",
+        "count": 2
+      },
+      {
+        "function_type": "Matter-Energy Storage",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "DAO",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "修道院",
+        "count": 4
+      },
+      {
+        "function_type": "Memory",
+        "era": "古代官僚制",
+        "count": 5
+      },
+      {
+        "function_type": "Memory",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "古代官僚制,近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "未分類",
+        "count": 7
+      },
+      {
+        "function_type": "Memory",
+        "era": "氏族・部族,首長制",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "Memory",
+        "era": "系列,財閥",
+        "count": 1
+      },
+      {
+        "function_type": "Output Transducer",
+        "era": "未分類",
+        "count": 1
+      },
+      {
+        "function_type": "Producer",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "Producer",
+        "era": "修道院",
+        "count": 1
+      },
+      {
+        "function_type": "Producer",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "Producer",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "Producer",
+        "era": "未分類",
+        "count": 1
+      },
+      {
+        "function_type": "Producer",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "修道院",
+        "count": 7
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "未分類",
+        "count": 5
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "産業企業 (U-form)",
+        "count": 1
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "系列,財閥",
+        "count": 1
+      },
+      {
+        "function_type": "Reproducer",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "System 1 Operations",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "System 1 Operations",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "System 1 Operations",
+        "era": "産業企業 (U-form)",
+        "count": 1
+      },
+      {
+        "function_type": "System 2 Coordination",
+        "era": "中世ギルド",
+        "count": 2
+      },
+      {
+        "function_type": "System 2 Coordination",
+        "era": "修道院",
+        "count": 1
+      },
+      {
+        "function_type": "System 2 Coordination",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "System 2 Coordination",
+        "era": "未分類",
+        "count": 3
+      },
+      {
+        "function_type": "System 2 Coordination",
+        "era": "近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "System 3 Internal Control and Audit",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "System 3 Internal Control and Audit",
+        "era": "古代官僚制,近代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "System 3 Internal Control and Audit",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "System 3 Internal Control and Audit",
+        "era": "未分類",
+        "count": 1
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "プラットフォーム",
+        "count": 1
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "修道院",
+        "count": 2
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "古代官僚制",
+        "count": 1
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "未分類",
+        "count": 2
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "特許貿易会社",
+        "count": 1
+      },
+      {
+        "function_type": "System 4 Intelligence and Strategy",
+        "era": "近代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "DAO",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "プラットフォーム",
+        "count": 4
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "中世ギルド",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "修道院",
+        "count": 6
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "古代官僚制",
+        "count": 2
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "古代官僚制,神殿経済",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "多事業部制 (M-form),系列",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "未分類",
+        "count": 10
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "氏族・部族,首長制",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "狩猟採集バンド",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "産業企業 (U-form)",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "系列,財閥",
+        "count": 1
+      },
+      {
+        "function_type": "System 5 Policy and Identity",
+        "era": "近代官僚制",
+        "count": 1
+      }
+    ],
+    "source_redistribution_source_type": [
+      {
+        "redistribution": "attribution_required",
+        "source_type": "dataset",
+        "count": 1
+      },
+      {
+        "redistribution": "attribution_required",
+        "source_type": "primary_text",
+        "count": 5
+      },
+      {
+        "redistribution": "attribution_required",
+        "source_type": "secondary_literature",
+        "count": 54
+      },
+      {
+        "redistribution": "attribution_required",
+        "source_type": "web",
+        "count": 8
+      },
+      {
+        "redistribution": "private",
+        "source_type": "dataset",
+        "count": 1
+      },
+      {
+        "redistribution": "public_redistributable",
+        "source_type": "dataset",
+        "count": 2
+      },
+      {
+        "redistribution": "public_redistributable",
+        "source_type": "onchain",
+        "count": 1
+      },
+      {
+        "redistribution": "public_redistributable",
+        "source_type": "primary_text",
+        "count": 9
+      },
+      {
+        "redistribution": "public_redistributable",
+        "source_type": "secondary_literature",
+        "count": 2
+      },
+      {
+        "redistribution": "public_redistributable",
+        "source_type": "web",
+        "count": 5
+      },
+      {
+        "redistribution": "restricted",
+        "source_type": "primary_text",
+        "count": 1
+      },
+      {
+        "redistribution": "restricted",
+        "source_type": "secondary_literature",
+        "count": 19
+      }
+    ],
+    "claim_value_kind_entity_type": [
+      {
+        "value_kind": "inapplicable",
+        "entity_type": "organization",
+        "count": 1
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "activity",
+        "count": 3
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "event",
+        "count": 7
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "function_record",
+        "count": 1
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "impact_record",
+        "count": 2
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "organization",
+        "count": 18
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "organization_form_assignment",
+        "count": 47
+      },
+      {
+        "value_kind": "partial",
+        "entity_type": "relation",
+        "count": 39
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "activity",
+        "count": 4
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "event",
+        "count": 1
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "function_record",
+        "count": 1
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "impact_record",
+        "count": 2
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "organization",
+        "count": 684
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "organization_form_assignment",
+        "count": 14
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "organization_temporal_facet",
+        "count": 28
+      },
+      {
+        "value_kind": "present",
+        "entity_type": "relation",
+        "count": 7
+      }
+    ]
+  },
+  "interpretations": {
+    "era_status_longevity_years": [
+      "最多セルは 未分類 × unknown × unknown の 226 件。",
+      "開始年がない、または非 active で終了年がない組織は longevity_years を unknown に分類した。"
+    ],
+    "era_relation_type": [
+      "最多セルは 未分類 × mimetic_isomorphism の 6 件。",
+      "relation の era は source_organization_id 側の historical_era 付与から集計した。"
+    ],
+    "form_taxonomy_organization": [
+      "最も多く組織に付与されている form_taxonomy は historical_era で 32 組織。",
+      "organization_count は重複 assignment を除いた distinct organization 数。"
+    ],
+    "function_type_era": [
+      "最多セルは System 5 Policy and Identity × 未分類 の 10 件。",
+      "function_record は function_type ごとに、対象組織の historical_era で集計した。"
+    ],
+    "source_redistribution_source_type": [
+      "最多セルは attribution_required × secondary_literature の 54 件。",
+      "redistribution が NULL の source は 未設定 として集計した。"
+    ],
+    "claim_value_kind_entity_type": [
+      "最多セルは present × organization の 684 件。",
+      "claim は value_kind と entity_type の組み合わせ別に使用パターンを数えた。"
+    ]
+  },
+  "findings": [
+    "historical_era 未分類は 341/373 組織で、時代分類はまだ一部のケースに偏っている。",
+    "longevity_years unknown は 248/373 組織で、寿命分析の主な制約になっている。",
+    "relation_type は mimetic_isomorphism が最多で 20/46 関係を占める。",
+    "public_redistributable source は 19/108 件で、再配布可能な出典は少数派。",
+    "claim.value_kind は present が 741/859 件で中心的に使われている。"
+  ]
+}
