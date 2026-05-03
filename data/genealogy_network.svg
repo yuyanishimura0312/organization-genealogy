@@ -41,21 +41,51 @@ text { font-size: 11px; }
 <rect x="1092.0188679245284" y="52" width="127.98113207547158" height="588" fill="#e8e8e0" opacity="0.4"/>
 <text x="1156.0094339622642" y="48" text-anchor="middle" font-size="11" fill="#888">現代</text>
 <path d="M 305.378 184.28571428571428 Q 440.47767924528296 154.28571428571428 575.577358490566 184.28571428571428" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 575.577358490566 184.28571428571428 Q 888.0018867924528 320.0 1200.4264150943395 515.7142857142858" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
-<path d="M 89.918 101.42857142857143 Q 599.2495660377358 71.42857142857143 1108.5811320754717 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 575.577358490566 184.28571428571428 Q 888.0018867924528 112.85714285714286 1200.4264150943395 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 89.918 101.42857142857143 Q 599.2495660377358 154.2857142857143 1108.5811320754717 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
 <path d="M 682.4792452830188 350.0 Q 669.6811320754716 195.71428571428572 656.8830188679244 101.42857142857143" stroke="#c66060" stroke-width="1.6" fill="none" opacity="0.60" stroke-dasharray="8 4" marker-end="url(#arrow-competition)"/>
-<path d="M 1179.3471698113206 267.14285714285717 Q 1189.88679245283 361.42857142857144 1200.4264150943395 515.7142857142858" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1179.3471698113206 515.7142857142858 Q 1189.88679245283 278.5714285714286 1200.4264150943395 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
 <path d="M 89.918 101.42857142857143 Q 155.06900000000002 71.42857142857143 220.22 101.42857142857143" stroke="#2e5a3f" stroke-width="1.6" fill="none" opacity="0.95" stroke-dasharray="" marker-end="url(#arrow-succession)"/>
-<path d="M 220.22 101.42857142857143 Q 252.368 195.71428571428572 284.51599999999996 350.0" stroke="#b07256" stroke-width="1.6" fill="none" opacity="0.95" stroke-dasharray="6 3" marker-end="url(#arrow-schism)"/>
-<path d="M 89.918 101.42857142857143 Q 187.21699999999998 195.71428571428572 284.51599999999996 350.0" stroke="#2e5a3f" stroke-width="1.6" fill="none" opacity="0.90" stroke-dasharray="" marker-end="url(#arrow-succession)"/>
-<path d="M 284.51599999999996 350.0 Q 282.806 278.57142857142856 281.096 267.14285714285717" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 1179.3471698113206 267.14285714285717 Q 1182.3584905660377 278.57142857142856 1185.3698113207547 350.0" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.60" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
-<path d="M 1108.5811320754717 101.42857142857143 Q 1128.907547169811 112.85714285714286 1149.2339622641507 184.28571428571428" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
-<path d="M 178.49599999999998 184.28571428571428 Q 430.4876226415094 237.1428571428571 682.4792452830188 350.0" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 281.096 267.14285714285717 Q 730.2215849056603 237.14285714285717 1179.3471698113206 267.14285714285717" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 400.796 101.42857142857143 Q 754.6885660377359 71.42857142857143 1108.5811320754717 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.35" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 528.9018867924528 101.42857142857143 Q 592.8924528301886 71.42857142857143 656.8830188679244 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
-<path d="M 677.9622641509434 267.14285714285717 Q 603.4320754716981 154.2857142857143 528.9018867924528 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 220.22 101.42857142857143 Q 252.368 320.0 284.51599999999996 598.5714285714286" stroke="#b07256" stroke-width="1.6" fill="none" opacity="0.95" stroke-dasharray="6 3" marker-end="url(#arrow-schism)"/>
+<path d="M 89.918 101.42857142857143 Q 187.21699999999998 320.0 284.51599999999996 598.5714285714286" stroke="#2e5a3f" stroke-width="1.6" fill="none" opacity="0.90" stroke-dasharray="" marker-end="url(#arrow-succession)"/>
+<path d="M 284.51599999999996 598.5714285714286 Q 282.806 527.1428571428571 281.096 515.7142857142858" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 1179.3471698113206 515.7142857142858 Q 1182.3584905660377 527.1428571428571 1185.3698113207547 598.5714285714286" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.60" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1108.5811320754717 267.14285714285717 Q 1128.907547169811 237.14285714285717 1149.2339622641507 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 178.49599999999998 267.14285714285717 Q 430.4876226415094 278.57142857142856 682.4792452830188 350.0" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 281.096 515.7142857142858 Q 730.2215849056603 485.7142857142858 1179.3471698113206 515.7142857142858" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 400.796 350.0 Q 754.6885660377359 278.57142857142856 1108.5811320754717 267.14285714285717" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.35" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 528.9018867924528 267.14285714285717 Q 592.8924528301886 154.2857142857143 656.8830188679244 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 677.9622641509434 267.14285714285717 Q 603.4320754716981 237.14285714285717 528.9018867924528 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 682.4792452830188 350.0 Q 881.2264150943396 195.71428571428572 1079.9735849056603 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 656.8830188679244 101.42857142857143 Q 868.4283018867924 71.42857142857143 1079.9735849056603 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 968.554716981132 101.42857142857143 Q 1049.8603773584905 320.0 1131.1660377358492 598.5714285714286" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1111.5924528301887 350.0 Q 1148.4811320754716 444.2857142857143 1185.3698113207547 598.5714285714286" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.65" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 968.554716981132 101.42857142857143 Q 1030.2867924528302 112.85714285714286 1092.0188679245284 184.28571428571428" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.85" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 1092.0188679245284 184.28571428571428 Q 1030.2867924528302 112.85714285714286 968.554716981132 101.42857142857143" stroke="#888" stroke-width="1.6" fill="none" opacity="0.95" stroke-dasharray="" marker-end="url(#arrow-normative_pressure)"/>
+<path d="M 1189.8867924528302 184.28571428571428 Q 639.902396226415 112.85714285714286 89.918 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.35" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 267.14285714285717 Q 859.3943396226415 237.14285714285717 528.9018867924528 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 598.5714285714286 Q 747.632396226415 361.42857142857144 305.378 184.28571428571428" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 515.7142857142858 Q 882.7320754716981 320.0 575.577358490566 184.28571428571428" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 598.5714285714286 Q 735.4913962264151 527.1428571428571 281.096 515.7142857142858" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 350.0 Q 639.902396226415 195.71428571428572 89.918 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.30" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 350.0 Q 1189.8867924528302 402.8571428571429 1189.8867924528302 515.7142857142858" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 422.0 184.28571428571428 Q 539.4415094339622 112.85714285714286 656.8830188679244 101.42857142857143" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 467.1698113207547 515.7142857142858 Q 386.27390566037735 320.0 305.378 184.28571428571428" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 1113.0981132075472 432.8571428571429 Q 1110.8396226415093 320.0 1108.5811320754717 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.35" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1132.6716981132076 184.28571428571428 Q 1120.6264150943398 195.71428571428572 1108.5811320754717 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.50" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1132.6716981132076 184.28571428571428 Q 1140.9528301886792 195.71428571428572 1149.2339622641507 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 1189.8867924528302 432.8571428571429 Q 1184.6169811320754 444.28571428571433 1179.3471698113206 515.7142857142858" stroke="#888" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="" marker-end="url(#arrow-normative_pressure)"/>
+<path d="M 1161.2792452830188 350.0 Q 1173.3245283018869 444.2857142857143 1185.3698113207547 598.5714285714286" stroke="#888" stroke-width="1.6" fill="none" opacity="0.85" stroke-dasharray="" marker-end="url(#arrow-subsidiary)"/>
+<path d="M 1123.6377358490568 515.7142857142858 Q 1151.4924528301885 444.28571428571433 1179.3471698113206 432.8571428571429" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 177.812 184.28571428571428 Q 229.454 320.0 281.096 515.7142857142858" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.70" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 241.424 432.8571428571429 Q 165.671 237.14285714285717 89.918 101.42857142857143" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.45" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 374.8039999999999 101.42857142857143 Q 451.85294339622635 154.2857142857143 528.9018867924528 267.14285714285717" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 507.822641509434 101.42857142857143 Q 808.2018867924528 154.2857142857143 1108.5811320754717 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 380.96000000000004 267.14285714285717 Q 279.728 237.14285714285717 178.49599999999998 267.14285714285717" stroke="#8a70a0" stroke-width="1.6" fill="none" opacity="0.40" stroke-dasharray="3 3" marker-end="url(#arrow-mimetic_isomorphism)"/>
+<path d="M 177.812 184.28571428571428 Q 209.618 278.57142857142856 241.424 432.8571428571429" stroke="#4a7a8c" stroke-width="1.6" fill="none" opacity="0.70" stroke-dasharray="4 3" marker-end="url(#arrow-knowledge_transfer)"/>
+<path d="M 380.96000000000004 267.14285714285717 Q 444.391320754717 154.2857142857143 507.822641509434 101.42857142857143" stroke="#888" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="" marker-end="url(#arrow-normative_pressure)"/>
+<path d="M 507.822641509434 101.42857142857143 Q 374.623320754717 237.14285714285717 241.424 432.8571428571429" stroke="#888" stroke-width="1.6" fill="none" opacity="0.60" stroke-dasharray="" marker-end="url(#arrow-normative_pressure)"/>
+<path d="M 374.8039999999999 101.42857142857143 Q 441.313320754717 71.42857142857143 507.822641509434 101.42857142857143" stroke="#888" stroke-width="1.6" fill="none" opacity="0.65" stroke-dasharray="" marker-end="url(#arrow-supply_chain)"/>
 <defs>
 <marker id="arrow-succession" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
 <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e5a3f"/>
@@ -78,87 +108,204 @@ text { font-size: 11px; }
 </defs>
 <line x1="89.918" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="89.918" cy="101.42857142857143" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="89.918" y="86.92857142857143" text-anchor="middle">ベネディクト会</text>
-<text class="node-date" x="89.918" y="123.92857142857143" text-anchor="middle">529-</text>
-<line x1="178.49599999999998" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
-<text x="1216.977358490566" y="198.28571428571428" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="178.49599999999998" cy="184.28571428571428" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="178.49599999999998" y="172.78571428571428" text-anchor="middle">比叡山延暦寺</text>
-<text class="node-date" x="178.49599999999998" y="203.78571428571428" text-anchor="middle">788-</text>
+<circle cx="89.918" cy="101.42857142857143" r="13.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="89.918" y="83.92857142857143" text-anchor="middle">ベネディクト会</text>
+<text class="node-date" x="89.918" y="126.92857142857143" text-anchor="middle">529-</text>
+<line x1="177.812" y1="194.28571428571428" x2="339.23600000000005" y2="194.28571428571428" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="177.812" cy="184.28571428571428" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="177.812" y="171.28571428571428" text-anchor="middle">バイト・アル=ヒクマ</text>
+<text class="node-date" x="177.812" y="205.28571428571428" text-anchor="middle">786-1258</text>
+<line x1="178.49599999999998" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="178.49599999999998" cy="267.14285714285717" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="178.49599999999998" y="254.14285714285717" text-anchor="middle">比叡山延暦寺</text>
+<text class="node-date" x="178.49599999999998" y="288.14285714285717" text-anchor="middle">788-</text>
 <line x1="220.22" y1="111.42857142857143" x2="858.6415094339624" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
 <circle cx="220.22" cy="101.42857142857143" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
 <text class="node-label" x="220.22" y="88.42857142857143" text-anchor="middle">Cluny 修道会</text>
 <text class="node-date" x="220.22" y="122.42857142857143" text-anchor="middle">910-1790</text>
-<line x1="281.096" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
-<text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="281.096" cy="267.14285714285717" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="281.096" y="254.14285714285717" text-anchor="middle">ボローニャ大学</text>
-<text class="node-date" x="281.096" y="288.14285714285717" text-anchor="middle">1088-</text>
-<line x1="284.51599999999996" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<line x1="227.06" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="284.51599999999996" cy="350.0" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="284.51599999999996" y="335.5" text-anchor="middle">シトー会</text>
-<text class="node-date" x="284.51599999999996" y="372.5" text-anchor="middle">1098-</text>
+<circle cx="227.06" cy="350.0" r="6.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="227.06" y="340.0" text-anchor="middle">安東権氏門中</text>
+<text class="node-date" x="227.06" y="368.0" text-anchor="middle">930-</text>
+<line x1="241.424" y1="442.8571428571429" x2="1213.977358490566" y2="442.8571428571429" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="446.8571428571429" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="241.424" cy="432.8571428571429" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="241.424" y="418.3571428571429" text-anchor="middle">アル・アズハル</text>
+<text class="node-date" x="241.424" y="455.3571428571429" text-anchor="middle">972-</text>
+<line x1="281.096" y1="525.7142857142858" x2="1213.977358490566" y2="525.7142857142858" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="529.7142857142858" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="281.096" cy="515.7142857142858" r="12.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="281.096" y="499.7142857142858" text-anchor="middle">ボローニャ大学</text>
+<text class="node-date" x="281.096" y="539.7142857142858" text-anchor="middle">1088-</text>
+<line x1="284.51599999999996" y1="608.5714285714286" x2="1213.977358490566" y2="608.5714285714286" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="612.5714285714286" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="284.51599999999996" cy="598.5714285714286" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="284.51599999999996" y="584.0714285714286" text-anchor="middle">シトー会</text>
+<text class="node-date" x="284.51599999999996" y="621.0714285714286" text-anchor="middle">1098-</text>
 <line x1="305.378" y1="194.28571428571428" x2="676.4566037735849" y2="194.28571428571428" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="305.378" cy="184.28571428571428" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="305.378" y="172.78571428571428" text-anchor="middle">ハンザ同盟</text>
-<text class="node-date" x="305.378" y="203.78571428571428" text-anchor="middle">1159-1669</text>
-<line x1="400.796" y1="111.42857142857143" x2="530.4075471698113" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="400.796" cy="101.42857142857143" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="400.796" y="89.92857142857143" text-anchor="middle">インカ帝国</text>
-<text class="node-date" x="400.796" y="120.92857142857143" text-anchor="middle">1438-1572</text>
-<line x1="528.9018867924528" y1="111.42857142857143" x2="961.0264150943395" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="528.9018867924528" cy="101.42857142857143" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="528.9018867924528" y="88.42857142857143" text-anchor="middle">ムガル朝マンサブダール制</text>
-<text class="node-date" x="528.9018867924528" y="122.42857142857143" text-anchor="middle">1571-1858</text>
+<circle cx="305.378" cy="184.28571428571428" r="10.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="305.378" y="169.78571428571428" text-anchor="middle">ハンザ同盟</text>
+<text class="node-date" x="305.378" y="206.78571428571428" text-anchor="middle">1159-1669</text>
+<line x1="374.8039999999999" y1="111.42857142857143" x2="920.3735849056604" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="374.8039999999999" cy="101.42857142857143" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="374.8039999999999" y="88.42857142857143" text-anchor="middle">オスマン・ティマール制</text>
+<text class="node-date" x="374.8039999999999" y="122.42857142857143" text-anchor="middle">1362-1831</text>
+<line x1="380.96000000000004" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="380.96000000000004" cy="267.14285714285717" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="380.96000000000004" y="254.14285714285717" text-anchor="middle">ナクシュバンディー教団</text>
+<text class="node-date" x="380.96000000000004" y="288.14285714285717" text-anchor="middle">1380-</text>
+<line x1="400.796" y1="360.0" x2="530.4075471698113" y2="360.0" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="400.796" cy="350.0" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="400.796" y="338.5" text-anchor="middle">インカ帝国</text>
+<text class="node-date" x="400.796" y="369.5" text-anchor="middle">1438-1572</text>
+<line x1="409.688" y1="442.8571428571429" x2="1092.0188679245284" y2="442.8571428571429" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="409.688" cy="432.8571428571429" r="6.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
+<text class="node-label" x="409.688" y="422.8571428571429" text-anchor="middle">ベトナム郷約</text>
+<text class="node-date" x="409.688" y="450.8571428571429" text-anchor="middle">1464-1945</text>
+<line x1="422.0" y1="194.28571428571428" x2="1054.377358490566" y2="194.28571428571428" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="422.0" cy="184.28571428571428" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="422.0" y="172.78571428571428" text-anchor="middle">山西商人ネットワーク</text>
+<text class="node-date" x="422.0" y="203.78571428571428" text-anchor="middle">1500-1920</text>
+<line x1="467.1698113207547" y1="525.7142857142858" x2="545.4641509433962" y2="525.7142857142858" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="467.1698113207547" cy="515.7142857142858" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="467.1698113207547" y="504.2142857142858" text-anchor="middle">堺会合衆</text>
+<text class="node-date" x="467.1698113207547" y="535.2142857142858" text-anchor="middle">1530-1582</text>
+<line x1="507.822641509434" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="507.822641509434" cy="101.42857142857143" r="12.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
+<text class="node-label" x="507.822641509434" y="85.42857142857143" text-anchor="middle">スレイマニエ・キュリエ</text>
+<text class="node-date" x="507.822641509434" y="125.42857142857143" text-anchor="middle">1557-</text>
+<line x1="528.9018867924528" y1="277.14285714285717" x2="961.0264150943395" y2="277.14285714285717" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="528.9018867924528" cy="267.14285714285717" r="12.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="528.9018867924528" y="251.14285714285717" text-anchor="middle">ムガル朝マンサブダール制</text>
+<text class="node-date" x="528.9018867924528" y="291.14285714285717" text-anchor="middle">1571-1858</text>
 <line x1="575.577358490566" y1="194.28571428571428" x2="872.1924528301886" y2="194.28571428571428" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="575.577358490566" cy="184.28571428571428" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
-<text class="node-label" x="575.577358490566" y="171.28571428571428" text-anchor="middle">オランダ東インド会社</text>
-<text class="node-date" x="575.577358490566" y="205.28571428571428" text-anchor="middle">1602-1799</text>
+<circle cx="575.577358490566" cy="184.28571428571428" r="10.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="575.577358490566" y="169.78571428571428" text-anchor="middle">オランダ東インド会社</text>
+<text class="node-date" x="575.577358490566" y="206.78571428571428" text-anchor="middle">1602-1799</text>
 <line x1="656.8830188679244" y1="111.42857142857143" x2="1022.7584905660377" y2="111.42857142857143" stroke="#999" stroke-width="2" opacity="0.5"/>
-<circle cx="656.8830188679244" cy="101.42857142857143" r="9.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
-<text class="node-label" x="656.8830188679244" y="88.42857142857143" text-anchor="middle">鴻池家</text>
-<text class="node-date" x="656.8830188679244" y="122.42857142857143" text-anchor="middle">1656-1899</text>
+<circle cx="656.8830188679244" cy="101.42857142857143" r="12.0" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
+<text class="node-label" x="656.8830188679244" y="85.42857142857143" text-anchor="middle">鴻池家</text>
+<text class="node-date" x="656.8830188679244" y="125.42857142857143" text-anchor="middle">1656-1899</text>
 <line x1="677.9622641509434" y1="277.14285714285717" x2="1110.0867924528302" y2="277.14285714285717" stroke="#999" stroke-width="2" opacity="0.5"/>
 <circle cx="677.9622641509434" cy="267.14285714285717" r="7.5" fill="#c5a050" stroke="#8a7035" stroke-width="1.5"/>
 <text class="node-label" x="677.9622641509434" y="255.64285714285717" text-anchor="middle">アシャンティ王国</text>
 <text class="node-date" x="677.9622641509434" y="286.64285714285717" text-anchor="middle">1670-1957</text>
 <line x1="682.4792452830188" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="682.4792452830188" cy="350.0" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="682.4792452830188" y="337.0" text-anchor="middle">三井越後屋</text>
-<text class="node-date" x="682.4792452830188" y="371.0" text-anchor="middle">1673-</text>
-<line x1="1108.5811320754717" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<circle cx="682.4792452830188" cy="350.0" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="682.4792452830188" y="335.5" text-anchor="middle">三井越後屋</text>
+<text class="node-date" x="682.4792452830188" y="372.5" text-anchor="middle">1673-</text>
+<line x1="968.554716981132" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1108.5811320754717" cy="101.42857142857143" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1108.5811320754717" y="86.92857142857143" text-anchor="middle">Mondragón Cor…</text>
-<text class="node-date" x="1108.5811320754717" y="123.92857142857143" text-anchor="middle">1956-</text>
-<line x1="1149.2339622641507" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<circle cx="968.554716981132" cy="101.42857142857143" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="968.554716981132" y="86.92857142857143" text-anchor="middle">International…</text>
+<text class="node-date" x="968.554716981132" y="123.92857142857143" text-anchor="middle">1863-</text>
+<line x1="1079.9735849056603" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1079.9735849056603" cy="101.42857142857143" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1079.9735849056603" y="88.42857142857143" text-anchor="middle">Toyota Motor …</text>
+<text class="node-date" x="1079.9735849056603" y="122.42857142857143" text-anchor="middle">1937-</text>
+<line x1="1092.0188679245284" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="198.28571428571428" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1149.2339622641507" cy="184.28571428571428" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1149.2339622641507" y="172.78571428571428" text-anchor="middle">Grameen Bank</text>
-<text class="node-date" x="1149.2339622641507" y="203.78571428571428" text-anchor="middle">1983-</text>
-<line x1="1179.3471698113206" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<circle cx="1092.0188679245284" cy="184.28571428571428" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1092.0188679245284" y="171.28571428571428" text-anchor="middle">United Nations</text>
+<text class="node-date" x="1092.0188679245284" y="205.28571428571428" text-anchor="middle">1945-</text>
+<line x1="1108.5811320754717" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1179.3471698113206" cy="267.14285714285717" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1179.3471698113206" y="252.64285714285717" text-anchor="middle">Wikimedia Fou…</text>
-<text class="node-date" x="1179.3471698113206" y="289.64285714285717" text-anchor="middle">2003-</text>
-<line x1="1185.3698113207547" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<circle cx="1108.5811320754717" cy="267.14285714285717" r="13.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1108.5811320754717" y="249.64285714285717" text-anchor="middle">Mondragón Cor…</text>
+<text class="node-date" x="1108.5811320754717" y="292.64285714285717" text-anchor="middle">1956-</text>
+<line x1="1111.5924528301887" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1185.3698113207547" cy="350.0" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1185.3698113207547" y="338.5" text-anchor="middle">Linux Foundat…</text>
-<text class="node-date" x="1185.3698113207547" y="369.5" text-anchor="middle">2007-</text>
+<circle cx="1111.5924528301887" cy="350.0" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1111.5924528301887" y="338.5" text-anchor="middle">Defense Advan…</text>
+<text class="node-date" x="1111.5924528301887" y="369.5" text-anchor="middle">1958-</text>
+<line x1="1113.0981132075472" y1="442.8571428571429" x2="1213.977358490566" y2="442.8571428571429" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="446.8571428571429" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1113.0981132075472" cy="432.8571428571429" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1113.0981132075472" y="421.3571428571429" text-anchor="middle">京セラ</text>
+<text class="node-date" x="1113.0981132075472" y="452.3571428571429" text-anchor="middle">1959-</text>
+<line x1="1123.6377358490568" y1="525.7142857142858" x2="1147.7283018867922" y2="525.7142857142858" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="1123.6377358490568" cy="515.7142857142858" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1123.6377358490568" y="504.2142857142858" text-anchor="middle">Black Panther…</text>
+<text class="node-date" x="1123.6377358490568" y="535.2142857142858" text-anchor="middle">1966-1982</text>
+<line x1="1131.1660377358492" y1="608.5714285714286" x2="1213.977358490566" y2="608.5714285714286" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="612.5714285714286" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1131.1660377358492" cy="598.5714285714286" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1131.1660377358492" y="587.0714285714286" text-anchor="middle">Greenpeace In…</text>
+<text class="node-date" x="1131.1660377358492" y="618.0714285714286" text-anchor="middle">1971-</text>
+<line x1="1132.6716981132076" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="198.28571428571428" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1132.6716981132076" cy="184.28571428571428" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1132.6716981132076" y="171.28571428571428" text-anchor="middle">Self-Employed…</text>
+<text class="node-date" x="1132.6716981132076" y="205.28571428571428" text-anchor="middle">1972-</text>
+<line x1="1149.2339622641507" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1149.2339622641507" cy="267.14285714285717" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1149.2339622641507" y="254.14285714285717" text-anchor="middle">Grameen Bank</text>
+<text class="node-date" x="1149.2339622641507" y="288.14285714285717" text-anchor="middle">1983-</text>
+<line x1="1161.2792452830188" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1161.2792452830188" cy="350.0" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1161.2792452830188" y="338.5" text-anchor="middle">Linux Kernel …</text>
+<text class="node-date" x="1161.2792452830188" y="369.5" text-anchor="middle">1991-</text>
+<line x1="1179.3471698113206" y1="442.8571428571429" x2="1213.977358490566" y2="442.8571428571429" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="446.8571428571429" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1179.3471698113206" cy="432.8571428571429" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1179.3471698113206" y="421.3571428571429" text-anchor="middle">Anonymous</text>
+<text class="node-date" x="1179.3471698113206" y="452.3571428571429" text-anchor="middle">2003-</text>
+<line x1="1179.3471698113206" y1="525.7142857142858" x2="1213.977358490566" y2="525.7142857142858" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="529.7142857142858" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1179.3471698113206" cy="515.7142857142858" r="12.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1179.3471698113206" y="499.7142857142858" text-anchor="middle">Wikimedia Fou…</text>
+<text class="node-date" x="1179.3471698113206" y="539.7142857142858" text-anchor="middle">2003-</text>
+<line x1="1185.3698113207547" y1="608.5714285714286" x2="1213.977358490566" y2="608.5714285714286" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="612.5714285714286" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1185.3698113207547" cy="598.5714285714286" r="10.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1185.3698113207547" y="584.0714285714286" text-anchor="middle">Linux Foundat…</text>
+<text class="node-date" x="1185.3698113207547" y="621.0714285714286" text-anchor="middle">2007-</text>
+<line x1="1189.8867924528302" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1189.8867924528302" cy="101.42857142857143" r="6.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="91.42857142857143" text-anchor="middle">Hadza バンド</text>
+<text class="node-date" x="1189.8867924528302" y="119.42857142857143" text-anchor="middle">2010-</text>
+<line x1="1189.8867924528302" y1="194.28571428571428" x2="1213.977358490566" y2="194.28571428571428" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="198.28571428571428" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1189.8867924528302" cy="184.28571428571428" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="172.78571428571428" text-anchor="middle">ウルク Eanna 神殿</text>
+<text class="node-date" x="1189.8867924528302" y="203.78571428571428" text-anchor="middle">2010-</text>
+<line x1="1189.8867924528302" y1="277.14285714285717" x2="1213.977358490566" y2="277.14285714285717" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="281.14285714285717" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1189.8867924528302" cy="267.14285714285717" r="7.5" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="255.64285714285717" text-anchor="middle">エジプト第18王朝の宰相</text>
+<text class="node-date" x="1189.8867924528302" y="286.64285714285717" text-anchor="middle">2010-</text>
+<line x1="1189.8867924528302" y1="360.0" x2="1213.977358490566" y2="360.0" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="364.0" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1189.8867924528302" cy="350.0" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="337.0" text-anchor="middle">スパルタ agoge</text>
+<text class="node-date" x="1189.8867924528302" y="371.0" text-anchor="middle">2010-</text>
 <line x1="1189.8867924528302" y1="442.8571428571429" x2="1213.977358490566" y2="442.8571428571429" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
 <text x="1216.977358490566" y="446.8571428571429" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1189.8867924528302" cy="432.8571428571429" r="6.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1189.8867924528302" y="422.8571428571429" text-anchor="middle">Hadza バンド</text>
-<text class="node-date" x="1189.8867924528302" y="450.8571428571429" text-anchor="middle">2010-</text>
-<line x1="1200.4264150943395" y1="525.7142857142858" x2="1213.977358490566" y2="525.7142857142858" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
-<text x="1216.977358490566" y="529.7142857142858" font-size="10" fill="#2e5a3f">▶</text>
-<circle cx="1200.4264150943395" cy="515.7142857142858" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
-<text class="node-label" x="1200.4264150943395" y="502.7142857142858" text-anchor="middle">MakerDAO</text>
-<text class="node-date" x="1200.4264150943395" y="536.7142857142858" text-anchor="middle">2017-</text>
+<circle cx="1189.8867924528302" cy="432.8571428571429" r="7.5" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="421.3571428571429" text-anchor="middle">Haudenosaunee…</text>
+<text class="node-date" x="1189.8867924528302" y="452.3571428571429" text-anchor="middle">2010-</text>
+<line x1="1189.8867924528302" y1="525.7142857142858" x2="80.0" y2="525.7142857142858" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="1189.8867924528302" cy="515.7142857142858" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="502.7142857142858" text-anchor="middle">ローマ軍団</text>
+<text class="node-date" x="1189.8867924528302" y="536.7142857142858" text-anchor="middle">2010-476</text>
+<line x1="1189.8867924528302" y1="608.5714285714286" x2="80.0" y2="608.5714285714286" stroke="#999" stroke-width="2" opacity="0.5"/>
+<circle cx="1189.8867924528302" cy="598.5714285714286" r="9.0" fill="#b07256" stroke="#7a4a3a" stroke-width="1.5"/>
+<text class="node-label" x="1189.8867924528302" y="585.5714285714286" text-anchor="middle">ローマの collegia</text>
+<text class="node-date" x="1189.8867924528302" y="619.5714285714286" text-anchor="middle">2010-476</text>
+<line x1="1200.4264150943395" y1="111.42857142857143" x2="1213.977358490566" y2="111.42857142857143" stroke="#2e5a3f" stroke-width="2" opacity="0.6"/>
+<text x="1216.977358490566" y="115.42857142857143" font-size="10" fill="#2e5a3f">▶</text>
+<circle cx="1200.4264150943395" cy="101.42857142857143" r="9.0" fill="#2e5a3f" stroke="#1d3d2a" stroke-width="1.5"/>
+<text class="node-label" x="1200.4264150943395" y="88.42857142857143" text-anchor="middle">MakerDAO</text>
+<text class="node-date" x="1200.4264150943395" y="122.42857142857143" text-anchor="middle">2017-</text>
 <text x="80" y="24" font-size="13" font-weight="700" fill="#1a1a1a">系譜ネットワーク (18 ノード × 13 エッジ)</text>
 <line x1="80" y1="46" x2="104" y2="46" stroke="#2e5a3f" stroke-width="2" stroke-dasharray=""/>
 <text x="110" y="50" font-size="10.5" fill="#444">継承</text>

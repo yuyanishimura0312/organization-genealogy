@@ -1,0 +1,2439 @@
+{
+  "threshold": 0.85,
+  "method": "difflib.SequenceMatcher on lowercased canonical_name",
+  "n_organizations": 348,
+  "n_pairs": 187,
+  "pairs": [
+    {
+      "ratio": 0.9667,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.9524,
+      "a": {
+        "organization_id": "1612e8423cbd4a3eb0ada10c5d0d1006",
+        "canonical_name": "TNTvillage",
+        "external_ids": "{\"wikidata\": \"Q67074115\"}"
+      },
+      "b": {
+        "organization_id": "ad29844abe594ac6b585e148ac1d1226",
+        "canonical_name": "TNT Village",
+        "external_ids": "{\"wikidata\": \"Q66382943\"}"
+      }
+    },
+    {
+      "ratio": 0.9474,
+      "a": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.9434,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.9259,
+      "a": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.918,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.9153,
+      "a": {
+        "organization_id": "cc5e510960774f06acc0a1490bfb521b",
+        "canonical_name": "Community Health Systems - Longview Regional Medical Center",
+        "external_ids": "{\"ror\": \"024a76r57\"}"
+      },
+      "b": {
+        "organization_id": "57bd6ef4848944beafcfc3c3b5b6eddb",
+        "canonical_name": "Community Health Systems - Bluffton Regional Medical Center",
+        "external_ids": "{\"ror\": \"05vqw4d96\"}"
+      }
+    },
+    {
+      "ratio": 0.9153,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.9123,
+      "a": {
+        "organization_id": "bde76029c5f64ef5b7804441e1db2473",
+        "canonical_name": "Hurshi Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441451\"}"
+      },
+      "b": {
+        "organization_id": "cbbb2b51f6e84671a79b5f781416422e",
+        "canonical_name": "Gokhuri Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441507\"}"
+      }
+    },
+    {
+      "ratio": 0.9123,
+      "a": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.9091,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.9091,
+      "a": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.9057,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.9032,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      }
+    },
+    {
+      "ratio": 0.9,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      }
+    },
+    {
+      "ratio": 0.9,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      }
+    },
+    {
+      "ratio": 0.9,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.9,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.9,
+      "a": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8966,
+      "a": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8929,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      }
+    },
+    {
+      "ratio": 0.8929,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      }
+    },
+    {
+      "ratio": 0.8929,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8929,
+      "a": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "7427331c5fde4cfea9f63c01b07d4fdb",
+        "canonical_name": "Andulberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441416\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8889,
+      "a": {
+        "organization_id": "63839090b69b405db219c035b6ef9e5f",
+        "canonical_name": "Gopinathpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441472\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8852,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8852,
+      "a": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8852,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8852,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.8852,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "9c6cea743a3a491dbd147f2a50f5154b",
+        "canonical_name": "Chatumadar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441403\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "ec040a1e77574cdb8e11828fad4d466f",
+        "canonical_name": "Chhototara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441424\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8814,
+      "a": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8788,
+      "a": {
+        "organization_id": "1df7e27ac42743528dde261cdce1886b",
+        "canonical_name": "Hingalganj Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441466\"}"
+      },
+      "b": {
+        "organization_id": "dc8c52acab15415b9bd1971b64eedf93",
+        "canonical_name": "Mahendraganj Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441422\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "134cebedc96246c48af9c6922c0e3142",
+        "canonical_name": "Fusrabaid Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441503\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      },
+      "b": {
+        "organization_id": "cbbb2b51f6e84671a79b5f781416422e",
+        "canonical_name": "Gokhuri Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441507\"}"
+      }
+    },
+    {
+      "ratio": 0.8772,
+      "a": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8727,
+      "a": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "7427331c5fde4cfea9f63c01b07d4fdb",
+        "canonical_name": "Andulberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441416\"}"
+      },
+      "b": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "70059f4f036b49219611bb12eeb9576e",
+        "canonical_name": "Babuidanga Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441413\"}"
+      },
+      "b": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "70059f4f036b49219611bb12eeb9576e",
+        "canonical_name": "Babuidanga Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441413\"}"
+      },
+      "b": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "70059f4f036b49219611bb12eeb9576e",
+        "canonical_name": "Babuidanga Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441413\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "9c6cea743a3a491dbd147f2a50f5154b",
+        "canonical_name": "Chatumadar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441403\"}"
+      },
+      "b": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "9c6cea743a3a491dbd147f2a50f5154b",
+        "canonical_name": "Chatumadar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441403\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "0893e759dd6a4b38b554ec56735715ba",
+        "canonical_name": "Chilkirhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441423\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "63839090b69b405db219c035b6ef9e5f",
+        "canonical_name": "Gopinathpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441472\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.871,
+      "a": {
+        "organization_id": "63839090b69b405db219c035b6ef9e5f",
+        "canonical_name": "Gopinathpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441472\"}"
+      },
+      "b": {
+        "organization_id": "cbbb2b51f6e84671a79b5f781416422e",
+        "canonical_name": "Gokhuri Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441507\"}"
+      }
+    },
+    {
+      "ratio": 0.8696,
+      "a": {
+        "organization_id": "9db94ec370144fb78abcbd412ffd0c8e",
+        "canonical_name": "Yangon University of Education",
+        "external_ids": "{\"ror\": \"05g910a37\", \"isni\": \"0000 0004 0468 135X\", \"wikidata\": \"Q17070286\"}"
+      },
+      "b": {
+        "organization_id": "ee5c4ccd49e24c69ab2bb831bf9a3ffe",
+        "canonical_name": "Yangon University Of Distance Education",
+        "external_ids": "{\"ror\": \"034k66c68\", \"isni\": \"0000 0004 9130 0550\", \"wikidata\": \"Q7895342\"}"
+      }
+    },
+    {
+      "ratio": 0.8679,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.8679,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "b26603c9940a462ebcdd1e29ca3e9b2a",
+        "canonical_name": "Rijksbeschermd gezicht Eijsden",
+        "external_ids": "{\"wikidata\": \"Q2274388\"}"
+      },
+      "b": {
+        "organization_id": "fffa489c64604471a8b1ff3507daeaf7",
+        "canonical_name": "Rijksbeschermd gezicht Lemiers",
+        "external_ids": "{\"wikidata\": \"Q2304597\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      },
+      "b": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      },
+      "b": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8667,
+      "a": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8657,
+      "a": {
+        "organization_id": "9b730467c3e349ce9a1b7c47c3b6fab9",
+        "canonical_name": "Barakalanki Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441469\"}"
+      },
+      "b": {
+        "organization_id": "31c9a10c6a734db1b65cc3b94a5aba7e",
+        "canonical_name": "Barabantalia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441506\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "b26603c9940a462ebcdd1e29ca3e9b2a",
+        "canonical_name": "Rijksbeschermd gezicht Eijsden",
+        "external_ids": "{\"wikidata\": \"Q2274388\"}"
+      },
+      "b": {
+        "organization_id": "638d6393134b447cb572d1656677fde5",
+        "canonical_name": "Rijksbeschermd gezicht Raren",
+        "external_ids": "{\"wikidata\": \"Q2151483\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "7427331c5fde4cfea9f63c01b07d4fdb",
+        "canonical_name": "Andulberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441416\"}"
+      },
+      "b": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "9c6cea743a3a491dbd147f2a50f5154b",
+        "canonical_name": "Chatumadar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441403\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      },
+      "b": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "4bf6e57592944ffd9c859ac5a100c02d",
+        "canonical_name": "Chandpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441420\"}"
+      },
+      "b": {
+        "organization_id": "bde76029c5f64ef5b7804441e1db2473",
+        "canonical_name": "Hurshi Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441451\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "7d152b051cff4d7bb6809fb1fc69e411",
+        "canonical_name": "Indrapur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441467\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      },
+      "b": {
+        "organization_id": "546d062d03ee4385b8da84069f3b7473",
+        "canonical_name": "Gankar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441457\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      },
+      "b": {
+        "organization_id": "cbbb2b51f6e84671a79b5f781416422e",
+        "canonical_name": "Gokhuri Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441507\"}"
+      }
+    },
+    {
+      "ratio": 0.8621,
+      "a": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8615,
+      "a": {
+        "organization_id": "31c9a10c6a734db1b65cc3b94a5aba7e",
+        "canonical_name": "Barabantalia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441506\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "638d6393134b447cb572d1656677fde5",
+        "canonical_name": "Rijksbeschermd gezicht Raren",
+        "external_ids": "{\"wikidata\": \"Q2151483\"}"
+      },
+      "b": {
+        "organization_id": "790e7f9684014fa487e570268363d205",
+        "canonical_name": "Rijksbeschermd gezicht Steyl",
+        "external_ids": "{\"wikidata\": \"Q2374333\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "70059f4f036b49219611bb12eeb9576e",
+        "canonical_name": "Babuidanga Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441413\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "6042f17d53a3408495095000b98be440",
+        "canonical_name": "Chakdaha Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441460\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "de2377ab517c4a179c291ed5bfaf9b1a",
+        "canonical_name": "Makalpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441406\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      },
+      "b": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "d4e61dc96d4c41b59d14623a38a8d976",
+        "canonical_name": "Ajodhya Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441473\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "9c6cea743a3a491dbd147f2a50f5154b",
+        "canonical_name": "Chatumadar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441403\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "9b730467c3e349ce9a1b7c47c3b6fab9",
+        "canonical_name": "Barakalanki Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441469\"}"
+      },
+      "b": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "12b7ce01b2d047b0b7634a9a6058c563",
+        "canonical_name": "Bhedia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441475\"}"
+      },
+      "b": {
+        "organization_id": "bde76029c5f64ef5b7804441e1db2473",
+        "canonical_name": "Hurshi Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441451\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "5e2f809f273649e78708271d504e0631",
+        "canonical_name": "Fulpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441415\"}"
+      },
+      "b": {
+        "organization_id": "bde76029c5f64ef5b7804441e1db2473",
+        "canonical_name": "Hurshi Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441451\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "63839090b69b405db219c035b6ef9e5f",
+        "canonical_name": "Gopinathpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441472\"}"
+      },
+      "b": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8571,
+      "a": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "1912ecfc23e44620a21320cbce562de8",
+        "canonical_name": "Agradwip Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441443\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "1390465bd7b740dc890323eb155ca54c",
+        "canonical_name": "Banagram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441433\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "86275ba6349c4f939b2c36abe785d6d2",
+        "canonical_name": "Biltora Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441430\"}"
+      },
+      "b": {
+        "organization_id": "ec040a1e77574cdb8e11828fad4d466f",
+        "canonical_name": "Chhototara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441424\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "2ba214ff08ea4cfcb681e5b78e553126",
+        "canonical_name": "Balihara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441436\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "fb4a8b2c538d40a5b5b24d08b45829fe",
+        "canonical_name": "Barunhat Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441463\"}"
+      },
+      "b": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "974b2065d5474ec0816ce7b0a4cf7b0a",
+        "canonical_name": "Begumpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441471\"}"
+      },
+      "b": {
+        "organization_id": "b89bc6acd3094d41ac0d776f6722ea1a",
+        "canonical_name": "Dumurtore Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441488\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "d87d573d092b43999f105b97ef10bd4c",
+        "canonical_name": "Debipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441410\"}"
+      },
+      "b": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "aba1bdabaa82405081dce6833a0d5d0c",
+        "canonical_name": "Bahadurpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441496\"}"
+      },
+      "b": {
+        "organization_id": "d9df71f7b7984bbfb7a0848b5fad1fc2",
+        "canonical_name": "Gazipur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441487\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "3c5757d0826d4a83aef676f482807575",
+        "canonical_name": "Baragram Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441508\"}"
+      },
+      "b": {
+        "organization_id": "215d028e65c94af98ac20fac7a00ec92",
+        "canonical_name": "Dharampur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441480\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "00d8dc45d4a44d4daacfea9fe5bee3ed",
+        "canonical_name": "Beraberia Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441510\"}"
+      },
+      "b": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "134cebedc96246c48af9c6922c0e3142",
+        "canonical_name": "Fusrabaid Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441503\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "75739f48d74e409fa3b9f9a9f1ece702",
+        "canonical_name": "Faridpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441426\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "b89bc6acd3094d41ac0d776f6722ea1a",
+        "canonical_name": "Dumurtore Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441488\"}"
+      },
+      "b": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "8ecfd172f1ed4b7abd4a96307c81e503",
+        "canonical_name": "Iswarpur Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441462\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8525,
+      "a": {
+        "organization_id": "83ab739dd48247acb39250e428340cdf",
+        "canonical_name": "Jamtoria Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441409\"}"
+      },
+      "b": {
+        "organization_id": "c4aa5e1db5e14dc1b312466512cf45eb",
+        "canonical_name": "Kamarpara Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441417\"}"
+      }
+    },
+    {
+      "ratio": 0.8519,
+      "a": {
+        "organization_id": "e506627ad5624fd18aba2c097dc87b56",
+        "canonical_name": "Amba Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441429\"}"
+      },
+      "b": {
+        "organization_id": "44b975b1db7e40818e711b060f556918",
+        "canonical_name": "Bhatol Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441421\"}"
+      }
+    },
+    {
+      "ratio": 0.8519,
+      "a": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8519,
+      "a": {
+        "organization_id": "bd9769ea46b640a9a5f5db18d1b4c3c3",
+        "canonical_name": "Boyal Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441512\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    },
+    {
+      "ratio": 0.8519,
+      "a": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      },
+      "b": {
+        "organization_id": "0e9011f3f4244768a0c486d2f1ddc690",
+        "canonical_name": "Jamar Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441485\"}"
+      }
+    },
+    {
+      "ratio": 0.8519,
+      "a": {
+        "organization_id": "94c359c4495e4f72b85fa96791faf3c8",
+        "canonical_name": "Chopa Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441505\"}"
+      },
+      "b": {
+        "organization_id": "19331f244e15441eb44a6a08d9ebb6a8",
+        "canonical_name": "Jatra Primary Health Centre",
+        "external_ids": "{\"wikidata\": \"Q61441447\"}"
+      }
+    }
+  ]
+}

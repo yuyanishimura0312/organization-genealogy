@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "extension_id": "codex7_extension_v1",
+  "title": "Codex7 sub-function extension examples",
+  "purpose": "Concrete sub_function definitions that extend the 25 master functions in codex7_function_taxonomy.json without altering the master enum.",
+  "design_note": "Each example specifies (function_id, sub_function_id, definition, era_examples). Master functions are unchanged. Definitions must remain consistent with Miller (1978) Living Systems and Beer (1972, 1979, 1985) VSM. Digital-era specifics live only in era_examples.digital.",
+  "compatibility": {
+    "function_type_enum": "unchanged from codex7_function_taxonomy_v1",
+    "schema_change": "additive: new column function_record.sub_function_id (nullable), new table function_subtype",
+    "existing_records_validity": "all 77 existing function_record rows remain valid with sub_function_id = NULL"
+  },
+  "schema": {
+    "type": "object",
+    "required": ["function_id", "sub_function_id", "name_ja", "name_en", "definition", "era_examples"],
+    "properties": {
+      "function_id": {"type": "string", "description": "Master function_type_id from codex7_function_taxonomy.json"},
+      "sub_function_id": {"type": "string", "pattern": "^[a-z0-9_]+::[a-z0-9_]+$"},
+      "name_ja": {"type": "string"},
+      "name_en": {"type": "string"},
+      "definition": {"type": "string"},
+      "source_anchor": {"type": "string", "description": "Citation tying the sub_function back to Miller 1978 or Beer 1972/1979/1985."},
+      "era_examples": {
+        "type": "object",
+        "required": ["ancient", "medieval", "modern", "contemporary", "digital"],
+        "properties": {
+          "ancient": {"type": "string"},
+          "medieval": {"type": "string"},
+          "modern": {"type": "string"},
+          "contemporary": {"type": "string"},
+          "digital": {"type": "string"}
+        }
+      },
+      "newly_observable_in_existing_cases": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "Existing 18 cases that gain a new function_record under this sub_function."
+      }
+    }
+  },
+  "examples": [
+    {
+      "function_id": "miller_14_timer",
+      "sub_function_id": "m14::block_epoch",
+      "name_ja": "ブロック・エポック",
+      "name_en": "Block / epoch period",
+      "definition": "暗号プロトコル、ブロックチェーン、または同期型分散システムが内部時刻として用いる離散周期を生成し、活動の発生と確定を時間軸上に整列させる sub-function。Miller (1978) Timer subsystem の派生で、外部太陽暦に依存しない自前の時間生成器に相当する。",
+      "source_anchor": "Miller 1978: pp. 80-83 (Timer subsystem, internally generated periodicity).",
+      "era_examples": {
+        "ancient": "祭祀官が独自の儀礼周期 (例: 60 日サイクル) を観測し、暦と独立した内部時刻を運用する。",
+        "medieval": "修道院の Liturgy of the Hours (聖務日課) が太陽暦から独立した内部周期を維持する。",
+        "medieval_alt": "ベネディクト会・シトー会の Opus Dei 周期。",
+        "modern": "工場の shift cycle、軍隊の watch、官庁の会計年度が太陽暦から派生した内部周期になる。",
+        "contemporary": "アジャイルチームの sprint 周期、四半期決算 cadence が内部時刻を作る。",
+        "digital": "Ethereum block time (~12s)、MakerDAO debt auction の epoch、Bitcoin halving epoch、PoS validator epoch がプロトコル内部時刻になる。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (Ethereum block-based liquidation, OSM oracle delay)",
+        "Linux Foundation (release train cadence per project)",
+        "ベネディクト会 (Liturgy of the Hours)",
+        "シトー会 (annual General Chapter, 9 月)",
+        "Mondragón Corporación Cooperativa (Cooperative Congress 周期)",
+        "ボローニャ大学 (academic year, lecturae cadence)"
+      ]
+    },
+    {
+      "function_id": "miller_11_input_transducer",
+      "sub_function_id": "m11::oracle_signal",
+      "name_ja": "オラクル信号",
+      "name_en": "Oracle / external signal feed",
+      "definition": "外部状態 (価格、気象、選挙結果、認証結果) を組織の意思決定エンジンが消費可能な signal として取り込む sub-function。Miller の Input Transducer の中で、特に低レイテンシの構造化シグナル取り込みに相当する。",
+      "source_anchor": "Miller 1978: pp. 51-54 (Input Transducer subsystem, sensory function).",
+      "era_examples": {
+        "ancient": "天文・気象観測官が王に送る星辰報告、洪水計測。",
+        "medieval": "巡察使の制度的報告、商人ネットワークからの市場情報。",
+        "modern": "通信社、株式相場速報、気象台の発表。",
+        "contemporary": "Bloomberg terminal、credit rating agency feed、SCADA センサ。",
+        "digital": "Chainlink などの decentralized oracle、Maker Oracle Security Module (OSM)、Ethereum 上の price feed、IoT telemetry。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (OSM が ETH/USD price を S4 と S3 に流す)",
+        "オランダ東インド会社 VOC (Generale Missiven が現地価格と政治情勢を Heeren XVII に流す)",
+        "ムガル朝マンサブダール制 (akhbarat 報告)",
+        "インカ帝国 (chasqui が陳情と統計を Cuzco に届ける、M13 と二重分類可)"
+      ]
+    },
+    {
+      "function_id": "miller_20_output_transducer",
+      "sub_function_id": "m20::on_chain_event",
+      "name_ja": "オンチェーン・イベント発信",
+      "name_en": "On-chain event emission",
+      "definition": "組織内部の意思決定や状態遷移を、共有台帳に対して event として書き込み、外部観察者が直接 verify 可能な形式で出力する sub-function。Miller の Output Transducer の派生で、媒体が改竄不可能な公開台帳である点が特徴。",
+      "source_anchor": "Miller 1978: pp. 85-87 (Output Transducer, broadcast to environment via shared medium).",
+      "era_examples": {
+        "ancient": "石碑、貨幣銘文、神殿への奉納碑が公開不可逆媒体への出力に相当する。",
+        "medieval": "教会の鐘、布告板、紋章付き勅許状。",
+        "modern": "官報、特許公報、株式公開市場での開示。",
+        "contemporary": "プレスリリース、SEC EDGAR ファイリング、IR 開示。",
+        "digital": "Ethereum event log (Transfer, Vote, Liquidation)、git tagged commit、DAO governance proposal の execution event。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (Vault, Liquidation, Vote イベントが全て on-chain)",
+        "Linux Foundation (signed release tag, GPG-signed announcement)",
+        "Wikimedia Foundation (article diff が公開 RecentChanges feed として出る)"
+      ]
+    },
+    {
+      "function_id": "miller_15_decoder",
+      "sub_function_id": "m15::compatibility_check",
+      "name_ja": "互換性検証",
+      "name_en": "Compatibility / interface verification",
+      "definition": "外部または下位部門から来た情報・成果物が、組織内の規格・型・インタフェースに整合するかを検証し、整合しない場合は拒否または変換する sub-function。Miller の Decoder のうち、規格・型システム・契約仕様への適合性検査に特化したもの。",
+      "source_anchor": "Miller 1978: pp. 67-70 (Decoder, code translation between input and internal formats).",
+      "era_examples": {
+        "ancient": "度量衡検査官が市場の升目・分銅を検査し、王朝規格に合うかを判定する。",
+        "medieval": "ギルドの品質検査、修道会が他派の文書を正典 (canon) に照合する。",
+        "modern": "工業規格 (DIN, JIS, ISO) 適合検査、輸入品の通関検査。",
+        "contemporary": "型検査、契約レビュー、規制当局の認証審査。",
+        "digital": "ABI 互換性検査、semver 解析、license compatibility 検査、protobuf schema registry、CI 型チェック。"
+      },
+      "newly_observable_in_existing_cases": [
+        "Linux Foundation (CNCF graduation criteria, license compatibility check, ABI stability for kernel)",
+        "ボローニャ大学 (glossae による既存テキストと新解釈の整合検査)",
+        "ハンザ同盟 (Lübecker Recht 適用判定)"
+      ]
+    },
+    {
+      "function_id": "miller_16_associator",
+      "sub_function_id": "m16::postmortem_learning",
+      "name_ja": "ポストモーテム学習",
+      "name_en": "Post-incident learning / postmortem",
+      "definition": "過去の失敗・障害・想定外事象を関連項目と結び付け、再発防止知識として記録する sub-function。Miller の Associator のうち、failure を起点に因果関連を作るループに対応する。",
+      "source_anchor": "Miller 1978: pp. 71-73 (Associator, formation of new associations from past events).",
+      "era_examples": {
+        "ancient": "敗戦・凶作・反乱の年代記が王朝の戒めとして記録される。",
+        "medieval": "ギルドが不良品事例を職人に伝承する、修道院が異端事例を文書化する。",
+        "modern": "事故調査委員会、医療カンファレンス、軍隊の after-action review。",
+        "contemporary": "blameless postmortem、incident retrospective、ナレッジベース化。",
+        "digital": "MakerDAO Black Thursday postmortem (2020-03-12)、Linux kernel CVE incident retrospective、SRE postmortem doc。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (Black Thursday postmortem, MIP 改訂への反映)",
+        "Linux Foundation (Heartbleed 後の Core Infrastructure Initiative)",
+        "ムガル朝 (Akbarnama, Padshahnama が成功・失敗事例を年代記化)"
+      ]
+    },
+    {
+      "function_id": "miller_12_internal_transducer",
+      "sub_function_id": "m12::observability",
+      "name_ja": "観測性 (observability)",
+      "name_en": "Observability of internal state",
+      "definition": "組織内部の状態 (リソース消費、エラー率、人員稼働、財務状況) を継続的に計測し、管理単位が消費可能な信号として変換する sub-function。Miller の Internal Transducer の中で、低遅延・連続計測の側面に対応する。",
+      "source_anchor": "Miller 1978: pp. 55-58 (Internal Transducer subsystem).",
+      "era_examples": {
+        "ancient": "倉庫官が日次で残高を集計し、王宮に報告する。",
+        "medieval": "修道院の cellarer が食料・葡萄酒・燃料の在庫を会計帳簿に毎日記載する。",
+        "modern": "工場のタイムカード、品質管理 SPC chart、原価計算。",
+        "contemporary": "ERP・BI ダッシュボード、KPI レビュー、内部監査。",
+        "digital": "Prometheus metrics、distributed tracing、audit log、on-chain treasury balance feed。"
+      },
+      "newly_observable_in_existing_cases": [
+        "鴻池家 (大福帳の日次入力)",
+        "MakerDAO (Maker dashboards, vault collateralization metrics)",
+        "Linux Foundation (CI metrics、project health dashboard)",
+        "Mondragón Corporación Cooperativa (Caja Laboral の組合間財務状態モニタリング)"
+      ]
+    },
+    {
+      "function_id": "miller_10_supporter",
+      "sub_function_id": "m10::protocol_substrate",
+      "name_ja": "プロトコル基盤",
+      "name_en": "Protocol / platform substrate",
+      "definition": "組織の活動が依存する下位プロトコルや共有プラットフォームを維持・利用する sub-function。Miller の Supporter のうち、組織の制度的骨格が他の組織が提供する共有基盤に乗っているケースに対応する。",
+      "source_anchor": "Miller 1978: pp. 47-50 (Supporter subsystem, structural maintenance).",
+      "era_examples": {
+        "ancient": "都市国家が共通の城壁、運河、街道網を共同利用する。",
+        "medieval": "ギルドが都市の市場権・度量衡・通貨を共有基盤として利用する。",
+        "modern": "鉄道網、電力網、銀行決済網が複数組織の活動を支える。",
+        "contemporary": "クラウドプロバイダ、認証局、決済ネットワークがアプリケーションを支える。",
+        "digital": "Ethereum (MakerDAO)、Linux kernel (Linux Foundation の他プロジェクト)、HTTP/TLS、Git。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (Ethereum L1 への依存)",
+        "Linux Foundation (Linux kernel への依存と維持)",
+        "Wikimedia Foundation (MediaWiki + 自社データセンター)",
+        "ハンザ同盟 (Lübecker Recht が共通法的基盤)"
+      ]
+    },
+    {
+      "function_id": "vsm_s5_policy_identity",
+      "sub_function_id": "s5::sacred_object_or_symbol",
+      "name_ja": "神聖な依代・象徴",
+      "name_en": "Sacred object or identity-bearing symbol",
+      "definition": "組織の同一性 (identity) が物理的または象徴的な単一物に体現される sub-function。Beer (1979) の identity 議論において、purpose / ethos が具体的な担体に固定されることで成員の忠誠と外部承認を統合する仕組みに対応する。",
+      "source_anchor": "Beer 1979 The Heart of Enterprise (identity facets); Beer 1985 Diagnosing the System for Organizations (S5 closure).",
+      "era_examples": {
+        "ancient": "王権の依代 (玉座、王冠、玉璽)、神殿の本尊が組織の魂とされる。",
+        "medieval": "教会の聖遺物、修道院の規則本文、ギルドの紋章旗。",
+        "modern": "国旗、社章、創業者の肖像、社是石碑。",
+        "contemporary": "ロゴ、コーポレートアイデンティティ、ブランドガイドライン。",
+        "digital": "プロジェクトのロゴ (Wikipedia globe, Linux Tux)、DAO の token symbol、protocol mascot、creation NFT。"
+      },
+      "newly_observable_in_existing_cases": [
+        "アシャンティ王国 (Sika Dwa Kofi 黄金の床几、既存 S5 を分解)",
+        "比叡山延暦寺 (本尊、伝教大師像)",
+        "三井グループ (暖簾、家紋)",
+        "Wikimedia Foundation (puzzle globe ロゴ)",
+        "ベネディクト会 (Rule of St. Benedict 自体が象徴)"
+      ]
+    },
+    {
+      "function_id": "vsm_s5_policy_identity",
+      "sub_function_id": "s5::founding_charter",
+      "name_ja": "創設憲章",
+      "name_en": "Founding charter / constitutional text",
+      "definition": "組織の存在理由・許容リスク・最終権威を成文化した一次文書群。Beer の S5 が果たす purpose 設定のうち、文書化された憲章層に対応し、後続の S3/S4 緊張の裁定根拠となる。",
+      "source_anchor": "Beer 1985 Diagnosing the System for Organizations chapter on S5 (policy closure).",
+      "era_examples": {
+        "ancient": "ハンムラビ法典、十二銅板法、儀礼書 (周礼) が国家・神殿の憲章になる。",
+        "medieval": "聖ベネディクト戒律、Charta Caritatis、都市憲章、ギルド規約が憲章になる。",
+        "modern": "憲法、会社定款、政党綱領、労働組合規約が憲章になる。",
+        "contemporary": "mission statement、bylaws、code of ethics、stakeholder charter。",
+        "digital": "DAO charter (e.g., MakerDAO Constitution 2024)、protocol constitution、CNCF charter、Five Pillars (Wikipedia)。"
+      },
+      "newly_observable_in_existing_cases": [
+        "ベネディクト会 (Rule of St. Benedict)",
+        "Cluny 修道会 (Cluny Customs)",
+        "シトー会 (Charta Caritatis 1119)",
+        "Mondragón (10 Cooperative Principles)",
+        "Wikimedia Foundation (Five Pillars)",
+        "MakerDAO (Maker Constitution / MIP 集合体)",
+        "Linux Foundation (Open governance principles + 個別プロジェクト charter)"
+      ]
+    },
+    {
+      "function_id": "miller_18_decider",
+      "sub_function_id": "m18::automated_controller",
+      "name_ja": "自動制御",
+      "name_en": "Automated controller / policy engine",
+      "definition": "事前にエンコードされた規則によって人間介在なく決定を下す sub-function。Miller の Decider のうち、規則ベースで自律的に作動する制御層に対応する。Beer の S2/S3 自動制御部とも重なるが、機能としては Decider に分類する。",
+      "source_anchor": "Miller 1978: pp. 75-79 (Decider subsystem); Beer 1972 Brain of the Firm (automatic regulators).",
+      "era_examples": {
+        "ancient": "閾値ルール (例: 倉庫残高が一定以下なら配給停止) を倉庫官に強制する規定。",
+        "medieval": "教会法による自動的な excommunication 条件、ギルド規約の自動罰則条項。",
+        "modern": "工場の安全装置、与信スコアリング、価格自動調整。",
+        "contemporary": "ABS、PID コントローラ、リスク管理エンジン、algorithmic trading。",
+        "digital": "MakerDAO の liquidation engine、smart contract の自動執行、Kubernetes auto-scaler、policy-as-code (OPA)。"
+      },
+      "newly_observable_in_existing_cases": [
+        "MakerDAO (Liquidation 2.0 engine が清算を自動執行)",
+        "Linux Foundation (CI 自動 merge policy、bot による license check 拒否)",
+        "オランダ東インド会社 VOC (Heeren XVII が定めた決算後配当ルールの自動適用)"
+      ]
+    }
+  ],
+  "source_attestation": [
+    {
+      "key": "miller_1978",
+      "citation": "Miller, James Grier. 1978. Living Systems. New York: McGraw-Hill.",
+      "used_for": "All Miller-derived sub_function definitions. Subsystem chapters in Part 1 (chapter 3, pp. 18-31) define each subsystem with internal components; sub_functions correspond to those components at the organizational level."
+    },
+    {
+      "key": "beer_1972",
+      "citation": "Beer, Stafford. 1972. Brain of the Firm. London: Allen Lane.",
+      "used_for": "VSM recursion and automatic regulators (chapter 8-9)."
+    },
+    {
+      "key": "beer_1979",
+      "citation": "Beer, Stafford. 1979. The Heart of Enterprise. Chichester: Wiley.",
+      "used_for": "Identity facets in S5 (purpose, ethos, pathos, logos), referenced for s5 sub_functions."
+    },
+    {
+      "key": "beer_1985",
+      "citation": "Beer, Stafford. 1985. Diagnosing the System for Organizations. Chichester: Wiley.",
+      "used_for": "Operationalization of S5 policy closure, referenced for s5::founding_charter."
+    }
+  ]
+}

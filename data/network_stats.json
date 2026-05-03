@@ -1,39 +1,70 @@
 {
-  "total_nodes": 18,
-  "total_edges": 16,
+  "total_nodes": 43,
+  "total_edges": 46,
   "by_relation_type": {
-    "knowledge_transfer": 6,
-    "mimetic_isomorphism": 6,
+    "knowledge_transfer": 16,
+    "mimetic_isomorphism": 20,
     "competition": 1,
     "succession": 2,
-    "schism": 1
+    "schism": 1,
+    "normative_pressure": 4,
+    "subsidiary": 1,
+    "supply_chain": 1
   },
   "components": [
     {
-      "size": 12,
+      "size": 35,
       "members": [
         "オランダ東インド会社 (VOC)",
+        "三井越後屋 / 三井グループ",
         "ベネディクト会 (Order of Saint Benedict)",
         "ハンザ同盟 (Hanseatic League)",
         "MakerDAO",
+        "アシャンティ王国 (Asante Empire)",
+        "ムガル朝マンサブダール制 (Mansabdari System)",
         "Mondragón Corporación Cooperativa (MCC)",
         "Wikimedia Foundation",
+        "鴻池家",
         "Cluny 修道会 (Order of Cluny)",
         "シトー会 (Cistercian Order)",
+        "比叡山延暦寺 (Tendai School / Mount Hiei)",
         "ボローニャ大学 (University of Bologna)",
         "インカ帝国 (Tahuantinsuyu)",
         "Linux Foundation",
-        "Grameen Bank"
+        "Grameen Bank",
+        "Toyota Motor Corporation",
+        "Defense Advanced Research Projects Agency (DARPA)",
+        "ウルク Eanna 神殿 (Eanna Temple of Uruk)",
+        "エジプト第18王朝の宰相 (djati / vizier)",
+        "ローマ軍団 (Roman legio, post-Marian)",
+        "ローマの collegia (職業組合・互助結社)",
+        "スパルタ agoge (Spartan ἀγωγή education system)",
+        "山西商人ネットワーク (Shanxi Merchants / Jin Shang)",
+        "堺会合衆 (Sakai Egoshu)",
+        "京セラ (Kyocera Corporation)",
+        "Self-Employed Women's Association (SEWA)",
+        "Haudenosaunee Confederacy (Iroquois)",
+        "Linux Kernel Community",
+        "アル・アズハル (Al-Azhar Mosque & University)",
+        "バイト・アル=ヒクマ (Bayt al-Ḥikma / House of Wisdom)",
+        "オスマン・ティマール制 (Ottoman Timar System)",
+        "ナクシュバンディー教団 (Naqshbandi Tariqa)",
+        "スレイマニエ・キュリエ (Süleymaniye Külliyesi)"
       ]
     },
     {
-      "size": 5,
+      "size": 3,
       "members": [
-        "三井越後屋 / 三井グループ",
-        "アシャンティ王国 (Asante Empire)",
-        "ムガル朝マンサブダール制 (Mansabdari System)",
-        "鴻池家",
-        "比叡山延暦寺 (Tendai School / Mount Hiei)"
+        "International Committee of the Red Cross (ICRC)",
+        "United Nations (UN)",
+        "Greenpeace International (Stichting Greenpeace Council)"
+      ]
+    },
+    {
+      "size": 2,
+      "members": [
+        "Black Panther Party (BPP)",
+        "Anonymous"
       ]
     },
     {
@@ -41,80 +72,93 @@
       "members": [
         "Hadza バンド (Hadzabe)"
       ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "安東権氏門中 (Andong Kwon Munjung)"
+      ]
+    },
+    {
+      "size": 1,
+      "members": [
+        "ベトナム郷約 (hương ước)"
+      ]
     }
   ],
   "top_degree": [
     {
       "name": "ベネディクト会 (Order of Saint Benedict)",
-      "total": 3,
-      "in": 0,
+      "total": 6,
+      "in": 3,
       "out": 3
     },
     {
       "name": "Mondragón Corporación Cooperativa (MCC)",
+      "total": 6,
+      "in": 5,
+      "out": 1
+    },
+    {
+      "name": "ムガル朝マンサブダール制 (Mansabdari System)",
+      "total": 4,
+      "in": 3,
+      "out": 1
+    },
+    {
+      "name": "Wikimedia Foundation",
+      "total": 4,
+      "in": 2,
+      "out": 2
+    },
+    {
+      "name": "鴻池家",
+      "total": 4,
+      "in": 3,
+      "out": 1
+    },
+    {
+      "name": "ボローニャ大学 (University of Bologna)",
+      "total": 4,
+      "in": 3,
+      "out": 1
+    },
+    {
+      "name": "スレイマニエ・キュリエ (Süleymaniye Külliyesi)",
+      "total": 4,
+      "in": 2,
+      "out": 2
+    },
+    {
+      "name": "オランダ東インド会社 (VOC)",
       "total": 3,
       "in": 2,
       "out": 1
     },
     {
-      "name": "Wikimedia Foundation",
+      "name": "三井越後屋 / 三井グループ",
       "total": 3,
       "in": 1,
       "out": 2
     },
     {
-      "name": "シトー会 (Cistercian Order)",
+      "name": "ハンザ同盟 (Hanseatic League)",
       "total": 3,
       "in": 2,
-      "out": 1
-    },
-    {
-      "name": "オランダ東インド会社 (VOC)",
-      "total": 2,
-      "in": 1,
-      "out": 1
-    },
-    {
-      "name": "三井越後屋 / 三井グループ",
-      "total": 2,
-      "in": 1,
-      "out": 1
-    },
-    {
-      "name": "MakerDAO",
-      "total": 2,
-      "in": 2,
-      "out": 0
-    },
-    {
-      "name": "ムガル朝マンサブダール制 (Mansabdari System)",
-      "total": 2,
-      "in": 1,
-      "out": 1
-    },
-    {
-      "name": "鴻池家",
-      "total": 2,
-      "in": 2,
-      "out": 0
-    },
-    {
-      "name": "Cluny 修道会 (Order of Cluny)",
-      "total": 2,
-      "in": 1,
       "out": 1
     }
   ],
   "era_distribution": {
-    "early_modern": 5,
-    "medieval": 7,
-    "contemporary": 3,
-    "extant": 1,
-    "postwar": 2
+    "early_modern": 8,
+    "medieval": 13,
+    "contemporary": 4,
+    "extant": 7,
+    "postwar": 9,
+    "modern": 2
   },
   "status_distribution": {
-    "extinct": 5,
-    "active": 11,
-    "transformed": 2
+    "extinct": 15,
+    "active": 24,
+    "transformed": 4
   }
 }
